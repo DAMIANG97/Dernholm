@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Dernholm - Obroń swój zamek</string>
+    <string name="start_game">Start</string>
+    <string name="lets_start">Rozpocznij</string>
+    <string name="more_games">Więcej gier</string>
+    <string name="rules">Zasady</string>
+    <string name="title_activity_rules">Zasady</string>
+    <string name="title_activity_page2">Strona2</string>
+    <string name="rules_text">Zasady są następujące: w każdej rundzie na podstawie otrzymanej od zwiadowców informacji o zagrożeniu należy tak wyposażyć swój zamek, aby uchronić go przed zbliżającym się niebezpieczeństwem. Blędnie dobrane środki zapobiegawcze skutkują porażką. Złote monety można inwestować w zabezpieczenia, dodatkowy zwiad lub oszczędzać na kolejną rundę. Kliknij przycisk poniżej aby powrócić do menu.</string>
+    <string name="rules_text1">Zasady są następujące: w każdej rundzie na podstawie otrzymanej od zwiadowców informacji o zagrożeniu należy tak wyposażyć swój zamek, aby uchronić go przed zbliżającym się niebezpieczeństwem. Blędnie dobrane środki zapobiegawcze skutkują porażką. Złote monety można inwestować w zabezpieczenia, dodatkowy zwiad lub oszczędzać na kolejną rundę. Kliknij przycisk poniżej aby rozpocząć grę.</string>
+    <string name="Back">Powrót</string>
+    <string name="gold">złoto:</string>
+    <string name="credit">Pożyczka</string>
+    <string name="Next">Dalej</string>
+    <string name="scoutprice">Zwiad-50zk</string>
+
+    <string name="the_plague_of_mosquitoes">Wasza Wysokość, jedna z okolicznych wiosek została zaatakowana, szczęśliwcy którzy w tym czasie nie znajdowali się w wiosce znaleźli schronienie w naszym zamku. Część z nich twierdzi, że sprawcą ataku był smok. Inni natomiast upierają się, że było to stado harpi. Mimo tych rozbieżności wszyscy byli zgodni co do jednego, wioskę spowił ogromny cień, a z oddali dało się słyszeć furkot. Jeden z chłopów twierdzi, że podczas ucieczki spostrzegł zasuszone ciało jednego z mieszkańców.  Co zrobisz ,aby zabezpieczyć swój zamek przed tym nieszczęściem?</string>
+    <string name="net_window">Siatki na okna! - 40 zk</string>
+    <string name="archer_wall">Łucznicy na mury! - 50 zk</string>
+    <string name="ballista_fire">Przygotować balisty, ogłosić alarm pożarowy! - 60 zk</string>
+    <string name="up_wall">Umocnić mury! - 70 zk</string>
+    <string name="scount_info">Panie Mój, udaliśmy się do zaatakowanej wioski i na miejscu znaleźliśmy zasuszone ciała. Z naszych obserwacji wynika, że ciała te zostały pozbawione krwi, jednak nie znaleźliśmy żadnych ran.</string>
+    <string name="mosquitoes_win">Kilka dni po zamontowaniu moskitiery podczas zachodu słońca horyzont spowiła ciemność, a w powietrzu dało się słyszeć bzyczenie. Po chwili można było dostrzec, że do zamku zbliża się ogromna chmara komarów, wojsko jest przeciwko nim bezradne, zarządziłeś ukrycie się w zamku.  Siatki na oknach skutecznie powstrzymały komary przed wtargnięciem do środka.</string>
+    <string name="you_lose2">Środki, które przedsięwziąłeś okazały się nieskuteczne. Zagrożenie, które zdziesiątkowało ludność twego królestwa nadal stanowi dlań niebezpieczeństwo.</string>
+
+
+    <string name="Dragon">Wasza Wysokość, kupcy ze wschodu donoszą, że na trakcie w pobliżu zamku natknęli się na miejscowych pasterzy, którzy twierdzą że ich owce są porywane, a w okolicy można natknąć się na wypalone połacie ziemi. Co zrobisz, aby zabezpieczyć swój zamek przed zbliżającym się zagrożeniem?</string>
+    <string name="hunting">Polowanie! - 50 zk</string>
+    <string name="ballista_fire_nets">Przygotować balistę - użyć sieci i ogłosić alarm pożarowy! - 70 zk</string>
+    <string name="ballista_fire_blackArrows">Przygotować balistę - użyć czarnych strzał i ogłosić alarm pożarowy! - 80 zk</string>
+    <string name="scout_dragon">Wasza wysokość, udaliśmy się na miejsce gdzieolejek ginęły owce. Na miejscu znaleźliśmy szczątki zwierząt. Myślę, że stoi za tym nieduża bestia, większa prawdopodobnie pożarłaby swoją ofiarę w całości. W związku z jej rozmiarem przypuszczam, że może być to stworzenie zwinne i szybkie.</string>
+    <string name="good_dragon">Następnego ranka zostałeś poinformowany, że zamek zaatakował smok. Strażnik, który postrzelił bestię relacjonował to wydarzenie następująco: stałem na warcie, w powietrzu dało się wyczuć zapach siarki. Spojrzałem w niebo i w oddali dostrzegłem skrzydlatą bestię. Bez namysłu dopadłem do balisty, jednak cel okazał się nadzwyczaj szybki, wiedziałem że zdążę oddać tylko jeden strzał, jednak z tyłu głowy wiedziałem że pole rażenia pocisku jest duże i nie muszę trafić stwora bezpośrednio. W tym momencie zwolniłem cięciwę. A smok runął na ziemię i padł martwy na wskutek upadku.</string>
+    <string name="you_lose3">Środki, które przedsięwziąłeś okazały się nieskuteczne. Zagrożenie, które zdziesiątkowało ludność twego królestwa nadal stanowi dlań niebezpieczeństwo.</string>
+
+    <string name="Cold">Wasza wysokość, samozwańczy wróżbita twierdzi że nadchodząca zima będzie wyjątkowo surowa. Głód nam nie grozi, posiadamy wystarczające zapasy żywności. Czy powinniśmy zrobić coś jeszcze?</string>
+    <string name="Cold_food">Więcej żywności! - 60 zk</string>
+    <string name="Cold_wood">Więcej materiału opałowego! - 80 zk</string>
+    <string name="Cold_kill">Co to za głupoty?! Powiesić wróżbitę! - 20zk</string>
+    <string name="scout_Cold">Panie mój, zapasy żywności wystarczą nawet na dwie zimy, jednak zapasy drewna nie są już tak okazałe.</string>
+    <string name="Cold_new">Usczelnić zamek! - 30 zk</string>
+    <string name="good_Cold">Nakazałeś swoim ludziom uzupełnić zapasy drewna z okolicznych lasów. Z czasem nadeszła wyjątkowo sroga i długa zima, gdyby nie dodatkowe zapasy drewna zapewne większość mieszkańców dernholm’u zamarzłaby we własnych domach.</string>
+    <string name="you_lose4">Środki, które przedsięwziąłeś okazały się nieskuteczne. Zagrożenie, które zdziesiątkowało ludność twego królestwa nadal stanowi dlań niebezpieczeństwo.</string>
+
+    <string name="ents">Królu mój, nadworny leśniczy twierdzi, że ostatnia wycinka lasu wprowadziła w gniew budzące się z zimowego letargu leśne istoty zwane entami. Stworzenia te w zemście planują atak na nasz zamek. Jak powinniśmy przygotować się do obrony?</string>
+    <string name="ents_newTries">Zasadzić nowe drzewa w miejscu starych! - 30 zk</string>
+    <string name="ents_trebuchet">Przygotować trebusz! - 50 zk</string>
+    <string name="ents_boillingOil">Wrzący olej! - 40 zk </string>
+    <string name="ents_brazier">Koksowniki! - 60 zk </string>
+    <string name="scout_ents">Panie mój, specjalista od magicznych stworzeń uważa, że dla drzewa dla entów są przyjaciółmi, nie ma możliwości, aby zasadzenie nowych drzew mogłoby powstrzymać ich gniew.</string>
+    <string name="good_ents">Po kilku dniach enty ruszyły na zamek, rozpoczęło się oblężenie. Część z nich złapała za głazy by ciskać nimi w mury zamczyska. W odpowiedzi żołnierze obstawiający mury wykorzystując zainstalowane na murach koksowniki zarzucili leśne stwory gradem ognistych strzał, które w mgnieniu oka przemieniły istoty w biegająca w panice płonące pochodnie. Atak został odparty.</string>
+    <string name="you_lose5">Środki, które przedsięwziąłeś okazały się nieskuteczne. Zagrożenie, które zdziesiątkowało ludność twego królestwa nadal stanowi dlań niebezpieczeństwo.</string>
+</resources>
+
+
+

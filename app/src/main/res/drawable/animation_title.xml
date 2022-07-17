@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/titles39"
+        android:duration="520"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles38"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles37"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles36"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles35"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles34"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles33"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles32"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles31"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles30"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles29"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles28"
+        android:duration="26"
+        android:repeatCount="0"/>
+    <item
+        android:drawable="@drawable/titles27"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles26"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles25"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles24"
+        android:duration="26"
+        android:repeatCount="0"/>
+    <item
+        android:drawable="@drawable/titles23"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles22"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles21"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles20"
+        android:duration="26"
+        android:repeatCount="0"/>
+    <item
+        android:drawable="@drawable/titles19"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles18"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles17"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles16"
+        android:duration="26"
+        android:repeatCount="0"/>
+    <item
+        android:drawable="@drawable/titles15"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles14"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles13"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles12"
+        android:duration="26"
+        android:repeatCount="0"/>
+    <item
+        android:drawable="@drawable/titles11"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles10"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles9"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles8"
+        android:duration="26"
+        android:repeatCount="0"/>
+    <item
+        android:drawable="@drawable/titles7"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles6"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles5"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles4"
+        android:duration="26"
+        android:repeatCount="0"/>
+    <item
+        android:drawable="@drawable/titles3"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles2"
+        android:duration="26"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/titles1"
+        android:duration="100000"
+        android:repeatCount="0"/>
+
+
+</animation-list>

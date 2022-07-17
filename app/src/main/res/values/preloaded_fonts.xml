@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/atma_medium</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/nova_script</item>
+        <item>@font/quintessential</item>
+        <item>@font/redressed</item>
+        <item>@font/the_girl_next_door</item>
+        <item>@font/unifrakturmaguntia</item>
+    </array>
+</resources>

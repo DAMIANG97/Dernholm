@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/castle21"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle20"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle19"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle18"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle17"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle16"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle15"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle14"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle13"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle12"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle11"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle10"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle9"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle8"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle7"
+        android:duration="52"
+        android:repeatCount="0"/>
+    <item
+        android:drawable="@drawable/castle6"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle5"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle4"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle3"
+        android:duration="52"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/castle2"
+        android:duration="52"
+        android:repeatCount="0"/>
+    <item
+        android:drawable="@drawable/castle1"
+        android:duration="100000"
+        android:repeatCount="0"/>
+</animation-list>

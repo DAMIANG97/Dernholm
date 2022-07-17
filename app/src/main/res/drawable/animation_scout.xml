@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/scout1"
+        android:duration="100"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/scout2"
+        android:duration="100"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/scout3"
+        android:duration="100"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/scout4"
+        android:duration="100"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/scout5"
+        android:duration="100"
+        android:repeatCount="0"/>
+    <item
+        android:drawable="@drawable/scout6"
+        android:duration="100"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/scout7"
+        android:duration="100"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/scout8"
+        android:duration="100"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/scout9"
+        android:duration="100"
+        android:repeatCount="0"/>
+
+    <item
+        android:drawable="@drawable/scout10"
+        android:duration="100"
+        android:repeatCount="0"/>
+    <item
+        android:drawable="@drawable/scout11"
+        android:duration="500000"
+        android:repeatCount="0"/>
+</animation-list>
