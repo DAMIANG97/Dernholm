@@ -32,7 +32,7 @@ import android.widget.Toast; //Biblioteki
 
 
 
-public class page2 extends AppCompatActivity implements OnUserEarnedRewardListener {
+public class page7 extends AppCompatActivity implements OnUserEarnedRewardListener {
     @Override
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
@@ -48,9 +48,9 @@ public class page2 extends AppCompatActivity implements OnUserEarnedRewardListen
                             | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);                        // zmiana widoku interfejsu użytkownika.
         }
     }
-    private long backPressedTime2;                                                          // wprowadzenie zmiennej "backPressedTime2"
+    private long backPressedTime7;                                                          // wprowadzenie zmiennej "backPressedTime2"
     private RewardedInterstitialAd rewardedInterstitialAd;                                  // wprowadzenie zmiennej "rewardedInterstitialAd"
-    final String TAG = "page2";                                                             // wprowadzenie zmiennej "TAG"
+    final String TAG = "page7";                                                             // wprowadzenie zmiennej "TAG"
     private AdView mAdView;                                                                 // wprowadzenie zmiennej "mAdView'
     int numer;                                                                              // wprowadzenie zmiennej "numer"
     int ilosczlotaa;                                                                        // wprowadzenie zmiennej "ilosczlotaa"
@@ -58,20 +58,20 @@ public class page2 extends AppCompatActivity implements OnUserEarnedRewardListen
     AnimationDrawable scoutanimation;                                                       // wprowadzenie zmiennej "scoutanimation"
     MediaPlayer mp = new MediaPlayer();
     MediaPlayer horse = new MediaPlayer();
-    MediaPlayer turnPage = new MediaPlayer();                                               // wprowadzenie klas MediaPlayer obługujących dźwięk
+    MediaPlayer turnPage = new MediaPlayer();
 
 
     @Override
     public void onBackPressed() {                                                           // kliknięcie przez użytkownika dwukrotnie przycisku powrót
-       if(backPressedTime2+2000>System.currentTimeMillis()){                                // spowoduje przejście do ekranu głównego urządzenie
-           moveTaskToBack(true);                                                    // nie zamykając aplikacji
-                                                                                            // kliknięcie przez użytkownika raz przycisku powrót
-                                                                                            // spowoduje pojawienie się toasta
-       }
-       else{
-           Toast.makeText(getBaseContext(),"Press back again to exit", Toast.LENGTH_SHORT).show();
-       }
-        backPressedTime2 = System.currentTimeMillis();
+        if(backPressedTime7+2000>System.currentTimeMillis()){                                // spowoduje przejście do ekranu głównego urządzenie
+            moveTaskToBack(true);                                                    // nie zamykając aplikacji
+            // kliknięcie przez użytkownika raz przycisku powrót
+            // spowoduje pojawienie się toasta
+        }
+        else{
+            Toast.makeText(getBaseContext(),"Press back again to exit", Toast.LENGTH_SHORT).show();
+        }
+        backPressedTime7 = System.currentTimeMillis();
 
     }
 
@@ -79,53 +79,48 @@ public class page2 extends AppCompatActivity implements OnUserEarnedRewardListen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        openbackgroundsound();                                                               // wywołanie metody obsługującej muzykę w tle aplikacji
+        openbackgroundsound();
         SharedPreferences loadLayout = getSharedPreferences(SAVE, MODE_PRIVATE);             // wprowadzenie interfejsu loadlayout pozwalającego przechowywać dane
         numer = loadLayout.getInt("numerr", MODE_PRIVATE);                              // przypisanie dla "numer" wartości int z loadLayout, "1" z aktywności rules1
         ilosczlotaa = loadLayout.getInt("ilosczlotaaa", MODE_PRIVATE);                  // przypisanie dla "ilosczlotaa" wartosci int z loadLayout, "100" z aktywności rules1
-        setContentView(R.layout.page2);                                                     // wywołanie interfejsu użytkownika "page2"
-
-        ImageView scout_animation = findViewById(R.id.scout2);                              //
+        setContentView(R.layout.page7);                                                     // wywołanie interfejsu użytkownika "page2"
+        ImageView scout_animation = findViewById(R.id.scout7);                              //
         scout_animation.setBackgroundResource(R.drawable.animation_scout);                  //
         scoutanimation = (AnimationDrawable) scout_animation.getBackground();               // wczytanie za pomocą obiektu imageView  animacji o nazwie "scoutanimation"
-        final Button button_animation = findViewById(R.id.button_scout2);                   // wprowadzenie przycisku "button_animation" odnoszącego się do przycisku z interfejsu użytkownnika o id "button_scout2".
-
-        final Button correct2_button1 = findViewById(R.id.next2_1);                         // wprowadzenie czterech przycisków odnoszących się
-        final Button incorrect2_button2 = findViewById(R.id.next2_2);                       // do przycisków z interfejsu użytkownika o id next2_1 itd.
-        final Button incorrect2_button3 = findViewById(R.id.next2_3);                       // przyciski te są nałożone na siebie
-        final Button incorrect2_button4 = findViewById(R.id.next2_4);                       // kliknięcie poprawnego przycisku nagradza użytkownika
-
-        final RadioButton opcja1 = findViewById(R.id.radioButton1);                         //
-        final RadioButton opcja2 = findViewById(R.id.radioButton2);                         //
-        final RadioButton opcja3 = findViewById(R.id.radioButton3);                         // wprowadzenie przycisków wyboru jednej z czterech opcji
-        final RadioButton opcja4 = findViewById(R.id.radioButton4);                         // odnoszących się do radiobuttons z layoutu użytkownika o id radioButton1 itd.
-        final RadioButton opcja5 = findViewById(R.id.radioButton5);                         // wprowadzenie fake przycisku, eliminującego błedy.
-
-
-
+        final Button button_animation = findViewById(R.id.button_scout7);                   // wprowadzenie przycisku "button_animation" odnoszącego się do przycisku z interfejsu użytkownnika o id "button_scout2".
+        final Button correct2_button1 = findViewById(R.id.next7_1);                         // wprowadzenie czterech przycisków odnoszących się
+        final Button incorrect2_button2 = findViewById(R.id.next7_2);                       // do przycisków z interfejsu użytkownika o id next2_1 itd.
+        final Button incorrect2_button3 = findViewById(R.id.next7_3);                       // przyciski te są nałożone na siebie
+        final Button incorrect2_button4 = findViewById(R.id.next7_4);                       // kliknięcie poprawnego przycisku nagradza użyt
+        final RadioButton opcja1 = findViewById(R.id.radioButton7_1);                         //
+        final RadioButton opcja2 = findViewById(R.id.radioButton7_2);                         //
+        final RadioButton opcja3 = findViewById(R.id.radioButton7_3);                         // wprowadzenie przycisków wyboru jednej z czterech opcji
+        final RadioButton opcja4 = findViewById(R.id.radioButton7_4);                         // odnoszących się do radiobuttons z layoutu użytkownika o id radioButton1 itd.
+        final RadioButton opcja5 = findViewById(R.id.radioButton7_5);                         // wprowadzenie fejk przycisku, eliminującego błedy.
+        final ImageButton scroll = findViewById(R.id.scrollid7);                             // wprowadzenie graficznego przycisku "scroll" odnoszącego się do przycisku z layoutu użytkownika o id "scrollid"
         correct2_button1.setEnabled(false);                                                 //
         correct2_button1.setVisibility(View.VISIBLE);                                       //
         incorrect2_button2.setEnabled(false);                                               //
         incorrect2_button2.setVisibility(View.INVISIBLE);                                   // stan początkowy przycisków pozwalających na przejście
         incorrect2_button3.setEnabled(false);                                               // do następnej aktywności,
         incorrect2_button3.setVisibility(View.INVISIBLE);                                   // widoczny jest tylko jeden z przycisków
-        incorrect2_button4.setEnabled(false);                                               // w tym stanie widoczny jest tylko przycisk poprawny i fake
-        incorrect2_button4.setVisibility(View.INVISIBLE);                                   // zmiana stanu pozwalajacego na interakcje pojawi sie przy wyborze przycisku opcji
+        incorrect2_button4.setEnabled(false);                                               // w tym stanie użytkownik może przejść do interakcji
+        incorrect2_button4.setVisibility(View.INVISIBLE);                                   // tylko z jednym przyciskiem - correct2_button1
 
-        final ImageButton scroll = findViewById(R.id.scrollid);                             // wprowadzenie graficznego przycisku "scroll" odnoszącego się do przycisku z layoutu użytkownika o id "scrollid"
+
 
 
         MobileAds.initialize(this, initializationStatus -> loadAd());                //
-        MobileAds.setAppVolume(0.18f);                                                      // ustawienie głośności reklamy
+        MobileAds.setAppVolume(0.18f);
 
      /*   mInterstitialAd = new InterstitialAd(this);
         mInterstitialAd.setAdUnitId("ca-app-pub-1287137257492728/9682158872");
         mInterstitialAd.loadAd(new AdRequest.Builder().build()); */
-        mAdView = findViewById(R.id.banner2);                                               // powiązanie zmiennej mAdView z banerem z interfejsu użytkownika o id banner2
+        mAdView = findViewById(R.id.banner7);                                               // powiązanie zmiennej mAdView z banerem z interfejsu użytkownika o id banner2
         AdRequest adRequest = new AdRequest.Builder().build();                              //
         mAdView.loadAd(adRequest);                                                          //
-        final TextView ilosczlota2 = findViewById(R.id.amout_gold2);                        // wprowadzenie tekstu "ilosczlota2" powiązanego z id "amout_gold2" z layoutu
-        final Button pożyczka2 = findViewById(R.id.credit2);                                // wprowadzenie przycisku "pożyczka2" powiązanego z przyciskiem o id "credit2" z layoutu
+        final TextView ilosczlota2 = findViewById(R.id.amout_gold7);                        // wprowadzenie tekstu "ilosczlota2" powiązanego z id "amout_gold2" z layoutu
+        final Button pożyczka2 = findViewById(R.id.credit7);                                // wprowadzenie przycisku "pożyczka2" powiązanego z przyciskiem o id "credit2" z layoutu
         ilosczlota2.setText(String.valueOf(ilosczlotaa));                                   // tekst "ilosczlota2" wyświetla wartość zmiennej "ilosczlotaa"
 
         button_animation.setOnClickListener(new View.OnClickListener() {                    // kliknięcie przez  użytkownika przycisku button_animation powoduje działanie:
@@ -133,12 +128,12 @@ public class page2 extends AppCompatActivity implements OnUserEarnedRewardListen
             public void onClick(View v) {                                                   //
                 if(ilosczlotaa>=50) {                                                       // możliwe tylko dla ilosczlotaa=>50 (posiadanej ilości waluty przez użytkownika)
                     button_animation.setVisibility(View.GONE);                              //
-                    button_animation.setEnabled(false);                                     // zniknięcie i  uniemożliwienie ponownego działania przycisku
+                    button_animation.setEnabled(false);                                     // zniknięcie i  uniemożliwienie działania przycisku
                     scoutanimation.start();                                                 // start animacji "scoutanimation"
-                    final Handler handler = new Handler();                                  //
+                    final Handler handler = new Handler();                                                                        //
                     handler.postDelayed(() -> {                                             // z opóźnieniem równym 2 sekundy ujawnienie przycisku "scroll", który przekazuje użytkownikowi wskazówki fabularne
                         scroll.setVisibility(View.VISIBLE);                                 // oraz zniknięcie grafiki "scout2" odpowiadającego za animację
-                        findViewById(R.id.scout2).setVisibility(View.GONE);                 //
+                        findViewById(R.id.scout7).setVisibility(View.GONE);                 //
                     }, 2000);                                                      //
                     ilosczlotaa = ilosczlotaa - 50;                                         // zmniejszenie wartości zmiennej "ilosczlotaa" o 50 (koszt kliknięcia przycisku button_animation)
                     SharedPreferences saveLayout = getSharedPreferences(SAVE, MODE_PRIVATE);// wprowadzenie interfejsu loadLayout pozwalającego przechowywać dane
@@ -147,23 +142,23 @@ public class page2 extends AppCompatActivity implements OnUserEarnedRewardListen
                     editor.putInt("ilosczlotaaa", ilosczlotaa);                             // zmiana wartości przechowywanej w "ilosczlotaaa" na aktualną wartość "ilosczlotaa"
                     editor.apply();                                                         // zatwierdzenie zmiany w loadLayout
 
-                    correct2_button1.setEnabled(false);                                     // zmiana statusu przycisków przejścia do następnej aktywności
-                    correct2_button1.setVisibility(View.INVISIBLE);                         // widoczny tylko fake przycisk
-                    incorrect2_button2.setEnabled(false);                                   // taki stan eliminuje błędy.
+                    correct2_button1.setEnabled(false);                                     // na użycie tylko przycisku powiązanego fabularnie z przyciskiem "opcja3"
+                    correct2_button1.setVisibility(View.INVISIBLE);
+                    incorrect2_button2.setEnabled(false);
                     incorrect2_button2.setVisibility(View.INVISIBLE);
                     incorrect2_button3.setEnabled(false);
                     incorrect2_button3.setVisibility(View.INVISIBLE);
                     incorrect2_button4.setEnabled(false);
                     incorrect2_button4.setVisibility(View.INVISIBLE);
 
-                    opcja1.setChecked(false);                                                           // zmiana statusu przycisków wyboru
-                    opcja2.setChecked(false);                                                           // wybrany zostaje przycisk, który jest niewidoczny, dzięki czemu w interfejsie użytkownika
-                    opcja3.setChecked(false);                                                           // po powrocie żaden z przycisków nie jest wybrany.
+                    opcja1.setChecked(false);                                                           // zmiana statusu przycisków wyboru po powrocie z reklamy do aktywności
+                    opcja2.setChecked(false);                                                           // wybrany zostaje przycisk, który jest niewidoczny, dzięki czemu dla użytkownika
+                    opcja3.setChecked(false);                                                           // po powrocie do reklamy żaden z przycisków nie jest wybrany.
                     opcja4.setChecked(false);                                                           // Dzięki temu nie występują błędy związane z złotem.
                     opcja5.setChecked(true);                                                            //
 
 
-                    if (horse.isPlaying()) {                                                            // odtworzenie dźwięku horse.mp3
+                    if (horse.isPlaying()) {
                         horse.stop();
                     }
 
@@ -188,16 +183,16 @@ public class page2 extends AppCompatActivity implements OnUserEarnedRewardListen
 
 
         scroll.setOnClickListener(view ->{                                                  // klikniecie przycisku "scroll" powoduje ujawnienie po 0,2s layoutu o id "infoscroll2"
-                                                                                             // w interejsie użytkownika pojawia się wskazówka fabularna i przycisk
-                                                                                            // pozwalajacy na powrót do głównej zawartości aktywności.
+            // w interejsie użytkownika pojawia się wskazówka fabularna i przycisk
+            // pozwalajacy na powrót do głównej zawartości aktywności.
 
             final Handler handler = new Handler();
             handler.postDelayed(() -> {
-                findViewById(R.id.infoscroll2).setVisibility(View.VISIBLE);
+                findViewById(R.id.infoscroll7).setVisibility(View.VISIBLE);
                 // w interfejsie użytkownika jest to powrót do głównej zawartości aktywności.
             }, 200);
 
-            if (turnPage.isPlaying()) {                                                     // odwtworzenie dźwięku turnPage.mp3
+            if (turnPage.isPlaying()) {
                 turnPage.stop();
             }
 
@@ -221,20 +216,20 @@ public class page2 extends AppCompatActivity implements OnUserEarnedRewardListen
 
         });
 
-        final Button scrollback2 = findViewById(R.id.backscroll2);                               // wprowadzenie przycisku "scrollback2" odnoszący się to przycisku z layoutu o id "backscroll2.
+        final Button scrollback2 = findViewById(R.id.backscroll7);                               // wprowadzenie przycisku "scrollback2" odnoszący się to przycisku z layoutu o id "backscroll2.
         scrollback2.setOnClickListener(v -> {                                                    // klikniecie przycisku "scrollback2"
-                                                                                                 //
+            //
 
 
 
 
             final Handler handler = new Handler();
             handler.postDelayed(() -> {
-                findViewById(R.id.infoscroll2).setVisibility(View.INVISIBLE);                   // powoduje znikniecie po 0,2s layoutu o id "infoscroll2"
-                                                                                                // w interfejsie użytkownika jest to powrót do głównej zawartości aktywności.
+                findViewById(R.id.infoscroll7).setVisibility(View.INVISIBLE);                   // powoduje znikniecie po 0,2s layoutu o id "infoscroll2"
+                // w interfejsie użytkownika jest to powrót do głównej zawartości aktywności.
             }, 200);
 
-            if (turnPage.isPlaying()) {                                                         // odworzenie dźwięku turnPage.mp3
+            if (turnPage.isPlaying()) {
                 turnPage.stop();
             }
 
@@ -260,18 +255,38 @@ public class page2 extends AppCompatActivity implements OnUserEarnedRewardListen
         pożyczka2.setOnClickListener(v -> {
 
             if (rewardedInterstitialAd != null) {
-                rewardedInterstitialAd.show(/* Activity */ page2.this,/*
-OnUserEarnedRewardListener */ page2.this);
+                rewardedInterstitialAd.show(/* Activity */ page7.this,/*
+OnUserEarnedRewardListener */ page7.this);
                 mp.pause();
             } else {
-                Toast.makeText(page2.this, "Ad Not Loaded", Toast.LENGTH_SHORT).show();
+                Toast.makeText(page7.this, "Ad Not Loaded", Toast.LENGTH_SHORT).show();
                 Log.d(TAG, "Ad Not Loaded");
             }
         });
 
-        opcja1.setOnClickListener(view -> {                                                 // wybór przycisku "opcja1" zmienia stan przycisków poniżej, pozawaljąc użytkownikowi
-                                                                                            // na użycie tylko przycisku powiązanego fabularnie z przyciskiem "opcja1"
-            correct2_button1.setEnabled(true);
+
+
+
+        opcja1.setOnClickListener(view -> {                                                 // wybór przycisku "opcja4" zmienia stan przycisków poniżej, pozawaljąc użytkownikowi
+            correct2_button1.setEnabled(false);                                             // na użycie tylko przycisku powiązanego fabularnie z przyciskiem "opcja4"
+            correct2_button1.setVisibility(View.INVISIBLE);
+            incorrect2_button2.setEnabled(true);
+            incorrect2_button2.setVisibility(View.VISIBLE);
+            incorrect2_button3.setEnabled(false);
+            incorrect2_button3.setVisibility(View.INVISIBLE);
+            incorrect2_button4.setEnabled(false);
+            incorrect2_button4.setVisibility(View.INVISIBLE);
+            if (ilosczlotaa<120){                                                            // jeżeli wartość zmiennej "ilosczlotaa" (zasoby użytkownika) jest mniejsza
+                incorrect2_button2.setEnabled(false);                                       // od 70, czyli kosztu wybranej opcji to także powiązany fabularnie przycisk
+                incorrect2_button2.setVisibility(View.INVISIBLE);                           // nie jest możliwy do kliknięcia przez użytkownika
+            }
+
+
+        });
+
+
+        opcja2.setOnClickListener(view -> {                                                 // wybór przycisku "opcja2" zmienia stan przycisków poniżej, pozawaljąc użytkownikowi
+            correct2_button1.setEnabled(true);                                             // na użycie tylko przycisku powiązanego fabularnie z przyciskiem "opcja4"
             correct2_button1.setVisibility(View.VISIBLE);
             correct2_button1.setClickable(true);
             incorrect2_button2.setEnabled(false);
@@ -281,32 +296,10 @@ OnUserEarnedRewardListener */ page2.this);
             incorrect2_button4.setEnabled(false);
             incorrect2_button4.setVisibility(View.INVISIBLE);
 
-            if (ilosczlotaa<40){                                                            // jeżeli wartość zmiennej "ilosczlotaa" (zasoby użytkownika) jest mniejsza
-                correct2_button1.setEnabled(false);                                         // od 40, czyli kosztu wybranej opcji to także powiązany fabularnie przycisk
-                correct2_button1.setClickable(false);                                       // nie jest możliwy do kliknięcia przez użytkownika
-
-            }
-
-        });
-
-
-
-
-
-        opcja2.setOnClickListener(view -> {                                                 // wybór przycisku "opcja2" zmienia stan przycisków poniżej, pozawaljąc użytkownikowi
-            correct2_button1.setEnabled(false);                                             // na użycie tylko przycisku powiązanego fabularnie z przyciskiem "opcja2"
-            correct2_button1.setVisibility(View.INVISIBLE);
-            incorrect2_button2.setEnabled(true);
-            incorrect2_button2.setVisibility(View.VISIBLE);
-            incorrect2_button3.setEnabled(false);
-            incorrect2_button3.setVisibility(View.INVISIBLE);
-            incorrect2_button4.setEnabled(false);
-            incorrect2_button4.setVisibility(View.INVISIBLE);
-
-            if (ilosczlotaa<50){                                                            // jeżeli wartość zmiennej "ilosczlotaa" (zasoby użytkownika) jest mniejsza
-                                                                                            // od 50, czyli kosztu wybranej opcji to także powiązany fabularnie przycisk
-                incorrect2_button2.setEnabled(false);                                       // nie jest możliwy do kliknięcia przez użytkownika
-                incorrect2_button2.setVisibility(View.INVISIBLE);
+            if (ilosczlotaa<80){                                                            // jeżeli wartość zmiennej "ilosczlotaa" (zasoby użytkownika) jest mniejsza
+                // od 50, czyli kosztu wybranej opcji to także powiązany fabularnie przycisk
+                correct2_button1.setEnabled(false);                                       // nie jest możliwy do kliknięcia przez użytkownika
+                correct2_button1.setClickable(false);
 
             }
 
@@ -323,9 +316,9 @@ OnUserEarnedRewardListener */ page2.this);
             incorrect2_button4.setEnabled(false);
             incorrect2_button4.setVisibility(View.INVISIBLE);
 
-            if (ilosczlotaa<60){                                                            // jeżeli wartość zmiennej "ilosczlotaa" (zasoby użytkownika) jest mniejsza
-                                                                                            // od 60, czyli kosztu wybranej opcji to także powiązany fabularnie przycisk
-                                                                                            // nie jest możliwy do kliknięcia przez użytkownika
+            if (ilosczlotaa<50){                                                            // jeżeli wartość zmiennej "ilosczlotaa" (zasoby użytkownika) jest mniejsza
+                // od 60, czyli kosztu wybranej opcji to także powiązany fabularnie przycisk
+                // nie jest możliwy do kliknięcia przez użytkownika
 
                 incorrect2_button3.setEnabled(false);
                 incorrect2_button3.setVisibility(View.INVISIBLE);
@@ -335,8 +328,9 @@ OnUserEarnedRewardListener */ page2.this);
 
         });
 
-        opcja4.setOnClickListener(view -> {                                                 // wybór przycisku "opcja4" zmienia stan przycisków poniżej, pozawaljąc użytkownikowi
-            correct2_button1.setEnabled(false);                                             // na użycie tylko przycisku powiązanego fabularnie z przyciskiem "opcja4"
+        opcja4.setOnClickListener(view -> {                                                 // wybór przycisku "opcja1" zmienia stan przycisków poniżej, pozawaljąc użytkownikowi
+            // na użycie tylko przycisku powiązanego fabularnie z przyciskiem "opcja1"
+            correct2_button1.setEnabled(false);
             correct2_button1.setVisibility(View.INVISIBLE);
             incorrect2_button2.setEnabled(false);
             incorrect2_button2.setVisibility(View.INVISIBLE);
@@ -344,13 +338,16 @@ OnUserEarnedRewardListener */ page2.this);
             incorrect2_button3.setVisibility(View.INVISIBLE);
             incorrect2_button4.setEnabled(true);
             incorrect2_button4.setVisibility(View.VISIBLE);
-            if (ilosczlotaa<70){                                                            // jeżeli wartość zmiennej "ilosczlotaa" (zasoby użytkownika) jest mniejsza
-                incorrect2_button4.setEnabled(false);                                       // od 70, czyli kosztu wybranej opcji to także powiązany fabularnie przycisk
-                incorrect2_button4.setVisibility(View.INVISIBLE);                           // nie jest możliwy do kliknięcia przez użytkownika
+
+            if (ilosczlotaa<50){                                                            // jeżeli wartość zmiennej "ilosczlotaa" (zasoby użytkownika) jest mniejsza
+                incorrect2_button4.setEnabled(false);                                         // od 40, czyli kosztu wybranej opcji to także powiązany fabularnie przycisk
+                incorrect2_button4.setClickable(false);                                       // nie jest możliwy do kliknięcia przez użytkownika
+
             }
 
-
         });
+
+
 
         opcja5.setOnClickListener(view -> {                                                 // wybór przycisku "opcja4" zmienia stan przycisków poniżej, pozawaljąc użytkownikowi
             correct2_button1.setEnabled(false);                                             // na użycie tylko przycisku powiązanego fabularnie z przyciskiem "opcja4"
@@ -365,16 +362,15 @@ OnUserEarnedRewardListener */ page2.this);
 
 
         });
+        correct2_button1.setOnClickListener(v -> {                                          // kliknięcie przycisku ""correct2_button1" powoduje:
+            findViewById(R.id.wygrales7).setVisibility(View.VISIBLE);
+            mp.setVolume((float)0.12,(float)0.12);
+        });
 
-            correct2_button1.setOnClickListener(v -> {                                          // kliknięcie przycisku ""correct2_button1" powoduje:
-                findViewById(R.id.wygrales).setVisibility(View.VISIBLE);                        // pojawienie się layoutu prezentującego ekran wygranej
-                mp.setVolume((float)0.12,(float)0.12);                                            // odrobinę wycisza dźwięk tła
-            });
-
-        final Button wygrales_button = findViewById(R.id.next);
+        final Button wygrales_button = findViewById(R.id.next7);
         wygrales_button.setOnClickListener(v -> {
             numer++;                                                                        // zwiększenie wartości zmiennej "numer" o jeden, odpowiadającej za zapis
-            ilosczlotaa = ilosczlotaa + 60;                                                 // zwiększenie wartości zmiennej "ilosczlotaa" o 60, zwiększenie zasobów gracza o 60
+            ilosczlotaa = ilosczlotaa + 20;                                                 // zwiększenie wartości zmiennej "ilosczlotaa" o 60, zwiększenie zasobów gracza o 60
             SharedPreferences saveLayout = getSharedPreferences(SAVE, MODE_PRIVATE);        // wprowadzenie interfejsu loadLayout pozwalającego przechowywać dane
             SharedPreferences.Editor editor = saveLayout.edit();                            // wczytanie interfejsu umożliwającego zmiany wartości w loadLayout
             editor.putInt("numerr", numer);                                                 // zmiana wartości przechowywanej w "numerr" na aktualną wartość "numer"
@@ -382,65 +378,62 @@ OnUserEarnedRewardListener */ page2.this);
             ilosczlota2.setText(String.valueOf(ilosczlotaa));                               // aktualizacja wartości wyświetlanej przez tekst "ilosczlota2"
             editor.putInt("ilosczlotaaa", ilosczlotaa);                                     // zmiana wartości przechowywanej w "ilosczlotaaa" na aktualną wartość "ilosczlotaa"
             editor.apply();                                                                 // zatwierdzenie zmiany w loadLayout
-            openpage3();                                                                    // wywołanie metody "openpage3()"
-            finish();                                                                       // zakończenie aktywności w celu zwolnienia pamięci
+            openpage8();                                                                     // wywołanie metody "openpage()"
+            finish();
 
 
 
 
         });
 
-            incorrect2_button2.setOnClickListener(v -> {                                        // kliknięcie przycisku "incorrect2_button2" powoduje:
 
-                ilosczlotaa = ilosczlotaa - 50;                                                 // zmniejszenie wartości zmiennej "ilosczlotaa" o 50, zmniejszenie zasobów gracza o 50
-                SharedPreferences saveLayout = getSharedPreferences(SAVE, MODE_PRIVATE);        // wprowadzenie interfejsu loadLayout pozwalającego przechowywać dane
-                SharedPreferences.Editor editor = saveLayout.edit();                            // wczytanie interfejsu umożliwającego zmiany wartości w loadLayout
-                ilosczlota2.setText(String.valueOf(ilosczlotaa));                                // aktualizacja wartości wyświetlanej przez tekst "ilosczlota2"
-                editor.putInt("ilosczlotaaa", ilosczlotaa);                                     // zmiana wartości przechowywanej w "ilosczlotaaa" na aktualną wartość "ilosczlotaa"
-                editor.apply();                                                                 // zatwierdzenie zmiany w loadLayout
-                findViewById(R.id.przegrales).setVisibility(View.VISIBLE);                      // layout o id "przegrales" staje się widoczny
-                findViewById(R.id.radioButton2).setVisibility(View.INVISIBLE);                  // przycisk wyboru pozwalający na kliknięcie "incorrect2_button2" znika i nie może być wybrany.
-                incorrect2_button2.setEnabled(false);                                           //
-                incorrect2_button2.setVisibility(View.INVISIBLE);                               //
-            });
+        incorrect2_button2.setOnClickListener(v -> {                                        // kliknięcie przycisku "incorrect2_button2" powoduje:
 
-            incorrect2_button3.setOnClickListener(v -> {                                        // kliknięcie przycisku "incorrect2_button3" powoduje:
+            ilosczlotaa = ilosczlotaa - 120;                                                 // zmniejszenie wartości zmiennej "ilosczlotaa" o 50, zmniejszenie zasobów gracza o 50
+            SharedPreferences saveLayout = getSharedPreferences(SAVE, MODE_PRIVATE);        // wprowadzenie interfejsu loadLayout pozwalającego przechowywać dane
+            SharedPreferences.Editor editor = saveLayout.edit();                            // wczytanie interfejsu umożliwającego zmiany wartości w loadLayout
+            ilosczlota2.setText(String.valueOf(ilosczlotaa));                                // aktualizacja wartości wyświetlanej przez tekst "ilosczlota2"
+            editor.putInt("ilosczlotaaa", ilosczlotaa);                                     // zmiana wartości przechowywanej w "ilosczlotaaa" na aktualną wartość "ilosczlotaa"
+            editor.apply();                                                                 // zatwierdzenie zmiany w loadLayout
+            findViewById(R.id.przegrales7).setVisibility(View.VISIBLE);                      // layout o id "przegrales" staje się widoczny
+            findViewById(R.id.radioButton7_1).setVisibility(View.INVISIBLE);                  // przycisk wyboru pozwalający na kliknięcie "incorrect2_button2" znika i nie może być wybrany.
+            incorrect2_button2.setEnabled(false);                                           //
+            incorrect2_button2.setVisibility(View.INVISIBLE);                               //
+        });
 
-                ilosczlotaa = ilosczlotaa - 60;                                                 // zmniejszenie wartości zmiennej "ilosczlotaa" o 60 zmniejszenie zasobów gracza o 60
-                SharedPreferences saveLayout = getSharedPreferences(SAVE, MODE_PRIVATE);        // wprowadzenie interfejsu loadLayout pozwalającego przechowywać dane
-                SharedPreferences.Editor editor = saveLayout.edit();                            // wczytanie interfejsu umożliwającego zmiany wartości w loadLayout
-                ilosczlota2.setText(String.valueOf(ilosczlotaa));                               // aktualizacja wartości wyświetlanej przez tekst "ilosczlota2"
-                editor.putInt("ilosczlotaaa", ilosczlotaa);                                     // zmiana wartości przechowywanej w "ilosczlotaaa" na aktualną wartość "ilosczlotaa"
-                editor.apply();                                                                 // zatwierdzenie zmiany w loadLayout
-                findViewById(R.id.przegrales).setVisibility(View.VISIBLE);                      // layout o id "przegrales" staje się widoczny
-                findViewById(R.id.radioButton3).setVisibility(View.INVISIBLE);                  // przycisk wyboru pozwalający na kliknięcie "incorrect2_button3" znika i nie może być wybrany.
-                incorrect2_button3.setEnabled(false);                                           //
-                incorrect2_button3.setVisibility(View.INVISIBLE);                               //
-            });
+        incorrect2_button3.setOnClickListener(v -> {                                        // kliknięcie przycisku "incorrect2_button3" powoduje:
 
-            incorrect2_button4.setOnClickListener(v -> {                                        // kliknięcie przycisku "incorrect2_button4" powoduje:
-                ilosczlotaa = ilosczlotaa - 70;                                                 // zmniejszenie wartości zmiennej "ilosczlotaa" o 70 zmniejszenie zasobów gracza o 70
-                SharedPreferences saveLayout = getSharedPreferences(SAVE, MODE_PRIVATE);        // wprowadzenie interfejsu loadLayout pozwalającego przechowywać dane
-                SharedPreferences.Editor editor = saveLayout.edit();                            // wczytanie interfejsu umożliwającego zmiany wartości w loadLayout
-                ilosczlota2.setText(String.valueOf(ilosczlotaa));                               // aktualizacja wartości wyświetlanej przez tekst "ilosczlota2"
-                editor.putInt("ilosczlotaaa", ilosczlotaa);                                     // zmiana wartości przechowywanej w "ilosczlotaaa" na aktualną wartość "ilosczlotaa"
-                editor.apply();                                                                 // zatwierdzenie zmiany w loadLayout
-                findViewById(R.id.przegrales).setVisibility(View.VISIBLE);                      // layout o id "przegrales" staje się widoczny
-                findViewById(R.id.radioButton4).setVisibility(View.INVISIBLE);                  // przycisk wyboru pozwalający na kliknięcie "incorrect2_button4" znika i nie może być wybrany.
-                incorrect2_button4.setEnabled(false);                                           //
-                incorrect2_button4.setVisibility(View.INVISIBLE);                               //
-            });
+            ilosczlotaa = ilosczlotaa - 50;                                                 // zmniejszenie wartości zmiennej "ilosczlotaa" o 60 zmniejszenie zasobów gracza o 60
+            SharedPreferences saveLayout = getSharedPreferences(SAVE, MODE_PRIVATE);        // wprowadzenie interfejsu loadLayout pozwalającego przechowywać dane
+            SharedPreferences.Editor editor = saveLayout.edit();                            // wczytanie interfejsu umożliwającego zmiany wartości w loadLayout
+            ilosczlota2.setText(String.valueOf(ilosczlotaa));                               // aktualizacja wartości wyświetlanej przez tekst "ilosczlota2"
+            editor.putInt("ilosczlotaaa", ilosczlotaa);                                     // zmiana wartości przechowywanej w "ilosczlotaaa" na aktualną wartość "ilosczlotaa"
+            editor.apply();                                                                 // zatwierdzenie zmiany w loadLayout
+            findViewById(R.id.przegrales7).setVisibility(View.VISIBLE);                      // layout o id "przegrales" staje się widoczny
+            findViewById(R.id.radioButton7_3).setVisibility(View.INVISIBLE);                  // przycisk wyboru pozwalający na kliknięcie "incorrect2_button3" znika i nie może być wybrany.
+            incorrect2_button3.setEnabled(false);                                           //
+            incorrect2_button3.setVisibility(View.INVISIBLE);                               //
+        });
 
-            final Button you_lose = findViewById(R.id.powrot);                                  // wprowadzenie przycisku "you_lose" odnoszącego się do przycisku "powrot" z layoutu użytkownika
-            you_lose.setOnClickListener(v -> {                                                  // kliknięcie przycisku "you_lose" powoduje:
-                findViewById(R.id.przegrales).setVisibility(View.INVISIBLE);                    // layout o id "przegrales" staje się niewidoczny, powrót do głównej aktywności
+        incorrect2_button4.setOnClickListener(v -> {                                        // kliknięcie przycisku "incorrect2_button4" powoduje:
+            ilosczlotaa = ilosczlotaa - 50;                                                 // zmniejszenie wartości zmiennej "ilosczlotaa" o 70 zmniejszenie zasobów gracza o 70
+            SharedPreferences saveLayout = getSharedPreferences(SAVE, MODE_PRIVATE);        // wprowadzenie interfejsu loadLayout pozwalającego przechowywać dane
+            SharedPreferences.Editor editor = saveLayout.edit();                            // wczytanie interfejsu umożliwającego zmiany wartości w loadLayout
+            ilosczlota2.setText(String.valueOf(ilosczlotaa));                               // aktualizacja wartości wyświetlanej przez tekst "ilosczlota2"
+            editor.putInt("ilosczlotaaa", ilosczlotaa);                                     // zmiana wartości przechowywanej w "ilosczlotaaa" na aktualną wartość "ilosczlotaa"
+            editor.apply();                                                                 // zatwierdzenie zmiany w loadLayout
+            findViewById(R.id.przegrales7).setVisibility(View.VISIBLE);                      // layout o id "przegrales" staje się widoczny
+            findViewById(R.id.radioButton7_4).setVisibility(View.INVISIBLE);                  // przycisk wyboru pozwalający na kliknięcie "incorrect2_button4" znika i nie może być wybrany.
+            incorrect2_button4.setEnabled(false);                                           //
+            incorrect2_button4.setVisibility(View.INVISIBLE);                               //
+        });
 
-
-            });
+        final Button you_lose = findViewById(R.id.powrot7);                                  // wprowadzenie przycisku "you_lose" odnoszącego się do przycisku "powrot" z layoutu użytkownika
+        you_lose.setOnClickListener(v -> {                                                  // kliknięcie przycisku "you_lose" powoduje:
+            findViewById(R.id.przegrales7).setVisibility(View.INVISIBLE);                    // layout o id "przegrales" staje się niewidoczny, powrót do głównej aktywności
 
 
-
-
+        });
 
 
 
@@ -453,7 +446,7 @@ OnUserEarnedRewardListener */ page2.this);
 
     private void loadAd() {
         // Use the test ad unit ID to load an ad.
-        RewardedInterstitialAd.load(page2.this, "ca-app-pub-3940256099942544/5354046379",
+        RewardedInterstitialAd.load(page7.this, "ca-app-pub-3940256099942544/5354046379",
                 new AdRequest.Builder().build(),  new RewardedInterstitialAdLoadCallback() {
                     @Override
                     public void onAdLoaded(RewardedInterstitialAd ad) {
@@ -491,46 +484,43 @@ OnUserEarnedRewardListener */ page2.this);
     }
 
 
-
-
-
-    public void openbackgroundsound() {                                                             // metoda odpowiadająca za tło muzyczne
+    public void openbackgroundsound() {
         final Handler handler = new Handler();
         handler.postDelayed(() -> {
 
-        if (mp.isPlaying()) {
-            mp.stop();
-        }
+            if (mp.isPlaying()) {
+                mp.stop();
+            }
 
-        try {
-            mp.reset();
-            AssetFileDescriptor afd;
-            afd = getAssets().openFd("castle.mp3");
+            try {
+                mp.reset();
+                AssetFileDescriptor afd;
+                afd = getAssets().openFd("castle.mp3");
 
-            mp.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
-            mp.prepare();
-            mp.setVolume((float) 0.3,(float)0.3);
-            mp.start();
-            mp.setLooping(true);
+                mp.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
+                mp.prepare();
+                mp.setVolume((float) 0.3,(float)0.3);
+                mp.start();
+                mp.setLooping(true);
 
 
-        } catch (IllegalStateException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        }, 1000);
+            } catch (IllegalStateException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }, 2000);
     }
 
 
 
     @Override
-    public void onStop(){                                                                           // zarządzanie dźwiękiem w cyklu zycia aktywnosci
+    public void onStop(){
         super.onStop();
         mp.pause();
     }
     @Override
-    public void onStart(){                                                                          // zarządzanie dźwiękiem w cyklu zycia aktywnosci
+    public void onStart(){
         super.onStart();
         mp.start();
         mp.setLooping(true);
@@ -538,9 +528,9 @@ OnUserEarnedRewardListener */ page2.this);
     }
 
 
-    public void openpage3(){
-        Intent intent2 = new Intent(this, page3.class);                         // wprowadzenie intencji "intent2" otwierającej aktywność "page3.class"
-        startActivity(intent2);                                                             // metoda otwierająca aktywność opisaną w intencji "intent2"
+    public void openpage8(){
+        Intent intent7 = new Intent(this, page8.class);                         // wprowadzenie intencji "intent2" otwierającej aktywność "page3.class"
+        startActivity(intent7);                                                             // metoda otwierająca aktywność opisaną w intencji "intent2"
     }
 
 
@@ -548,18 +538,18 @@ OnUserEarnedRewardListener */ page2.this);
     @Override
     public void onUserEarnedReward(@NonNull  RewardItem rewardItem) {                       // nagroda dla gracza za obejrzenie reklamy
         Log.i(TAG, "onUserEarnedReward");
-        final TextView ilosczlota2 = findViewById(R.id.amout_gold2);                        // wprowadzenie tekstu "ilosczlota2" powiązanego z id "amout_gold2" z layoutu
+        final TextView ilosczlota2 = findViewById(R.id.amout_gold7);                        // wprowadzenie tekstu "ilosczlota2" powiązanego z id "amout_gold2" z layoutu
         ilosczlotaa=ilosczlotaa+50;                                                         // zwiększenie wartości zmiennej "ilosczlotaa" o 50, zwiększenie zasobów gracza o 50
         ilosczlota2.setText(String.valueOf(ilosczlotaa));                                   // aktualizacja wartości wyświetlanej przez tekst "ilosczlota2"
         SharedPreferences saveLayout = getSharedPreferences(SAVE, MODE_PRIVATE);            // wprowadzenie interfejsu loadLayout pozwalającego przechowywać dane
         SharedPreferences.Editor editor = saveLayout.edit();                                // wczytanie interfejsu umożliwającego zmiany wartości w loadLayout
         editor.putInt("ilosczlotaaa", ilosczlotaa);                                         // zmiana wartości przechowywanej w "ilosczlotaaa" na aktualną wartość "ilosczlotaa"
         editor.apply();                                                                     // zatwierdzenie zmiany w loadLayout
-        final RadioButton opcja1 = findViewById(R.id.radioButton1);                         //
-        final RadioButton opcja2 = findViewById(R.id.radioButton2);                         //
-        final RadioButton opcja3 = findViewById(R.id.radioButton3);                         // wprowadzenie przycisków wyboru jednej z czterech opcji
-        final RadioButton opcja4 = findViewById(R.id.radioButton4);                         // odnoszących się do radiobuttons z layoutu użytkownika o id radioButton1 itd.
-        final RadioButton opcja5 = findViewById(R.id.radioButton5);                         // wprowadzenie fejk przycisku, eliminującego błedy.
+        final RadioButton opcja1 = findViewById(R.id.radioButton7_1);                         //
+        final RadioButton opcja2 = findViewById(R.id.radioButton7_2);                         //
+        final RadioButton opcja3 = findViewById(R.id.radioButton7_3);                         // wprowadzenie przycisków wyboru jednej z czterech opcji
+        final RadioButton opcja4 = findViewById(R.id.radioButton7_4);                         // odnoszących się do radiobuttons z layoutu użytkownika o id radioButton1 itd.
+        final RadioButton opcja5 = findViewById(R.id.radioButton7_5);                         // wprowadzenie fejk przycisku, eliminującego błedy.
         opcja1.setChecked(false);                                                           // zmiana statusu przycisków wyboru po powrocie z reklamy do aktywności
         opcja2.setChecked(false);                                                           // wybrany zostaje przycisk, który jest niewidoczny, dzięki czemu dla użytkownika
         opcja3.setChecked(false);                                                           // po powrocie do reklamy żaden z przycisków nie jest wybrany.
@@ -567,9 +557,9 @@ OnUserEarnedRewardListener */ page2.this);
         opcja5.setChecked(true);                                                            //
 
         final Handler handler = new Handler();
-        handler.postDelayed(() -> {                                                         // kontynuacja muzytki z tła sekundę po zakończeniu reklamy.
-        mp.start();
-        mp.isLooping();
+        handler.postDelayed(() -> {
+            mp.start();
+            mp.isLooping();
         }, 1000);
 
     /*    final Handler handler = new Handler();                                  // z opóźnieniem równym 2 sekundy ujawnienie przycisku "scroll", który przekazuje użytkownikowi wskazówki fabularne
@@ -596,4 +586,6 @@ OnUserEarnedRewardListener */ page2.this);
 
 
     }
+
 }
+

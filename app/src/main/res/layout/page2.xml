@@ -29,12 +29,7 @@
             android:orientation="vertical"
             android:padding="5dp">
 
-            <ImageView
-                android:id="@+id/top_separate"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                app:srcCompat="@drawable/dolalbobok" />
+
 
             <TextView
                 android:textColor="@color/black"
@@ -316,33 +311,35 @@
 
         </LinearLayout>
 
-
+        <ImageView
+            android:id="@+id/top_separate2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/separator"
+            app:layout_constraintTop_toBottomOf="@id/credit2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:visibility="invisible"
-        android:id="@+id/przegrales"
-        android:layout_marginTop="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/o"
-        app:layout_constraintBottom_toTopOf="@id/banner2"
-        app:layout_constraintTop_toBottomOf="@id/button_heading2">
+
 
 
 
 
         <ScrollView
+
+            android:visibility="invisible"
             android:layout_marginBottom="20dp"
-            android:id="@+id/scrollViewend"
+            android:id="@+id/przegrales"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:background="@color/o"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/banner2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_heading2"
             app:layout_constraintVertical_bias="0.0">
 
             <LinearLayout
@@ -392,30 +389,23 @@
 
             </LinearLayout>
         </ScrollView>
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:visibility="invisible"
-        android:id="@+id/wygrales"
-        android:layout_marginTop="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/o"
-        app:layout_constraintBottom_toTopOf="@id/banner2"
-        app:layout_constraintTop_toBottomOf="@id/button_heading2">
+
+
 
         <ScrollView
+            android:visibility="invisible"
             android:layout_marginBottom="20dp"
-            android:id="@+id/scrollViewwin"
+            android:id="@+id/wygrales"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:background="@color/o"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/banner2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_heading2"
             app:layout_constraintVertical_bias="0.0">
 
             <LinearLayout
@@ -466,7 +456,7 @@
             </LinearLayout>
         </ScrollView>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:visibility="invisible"

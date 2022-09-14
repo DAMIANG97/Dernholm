@@ -25,6 +25,20 @@
             android:screenOrientation="portrait"></activity>
         <activity android:name=".page5"
             android:screenOrientation="portrait"></activity>
+        <activity android:name=".page6"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".page7"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".page8"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".page9"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".page10"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".page11"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".endgame"
+            android:screenOrientation="portrait"></activity>
 
 
         <activity android:name=".MainActivity"

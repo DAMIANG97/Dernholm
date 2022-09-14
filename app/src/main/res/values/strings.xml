@@ -6,14 +6,31 @@
     <string name="rules">Zasady</string>
     <string name="title_activity_rules">Zasady</string>
     <string name="title_activity_page2">Strona2</string>
-    <string name="rules_text">Zasady są następujące: w każdej rundzie na podstawie otrzymanej od zwiadowców informacji o zagrożeniu należy tak wyposażyć swój zamek, aby uchronić go przed zbliżającym się niebezpieczeństwem. Blędnie dobrane środki zapobiegawcze skutkują porażką. Złote monety można inwestować w zabezpieczenia, dodatkowy zwiad lub oszczędzać na kolejną rundę. Kliknij przycisk poniżej aby powrócić do menu.</string>
-    <string name="rules_text1">Zasady są następujące: w każdej rundzie na podstawie otrzymanej od zwiadowców informacji o zagrożeniu należy tak wyposażyć swój zamek, aby uchronić go przed zbliżającym się niebezpieczeństwem. Blędnie dobrane środki zapobiegawcze skutkują porażką. Złote monety można inwestować w zabezpieczenia, dodatkowy zwiad lub oszczędzać na kolejną rundę. Kliknij przycisk poniżej aby rozpocząć grę.</string>
+    <string name="rules_text">Dernholm to gra w której wcielasz się w władcę państwa. Niestety Twoje włości nawiedzają liczne nieszczęścia w postaci bestii, szpiegów, plag czy ataki armii innych królestw. Aby przetrwać ten trudny okres jako władca musisz podejmować trudne decyzje i mądrze zarządzać zasobami na które ciężko pracowali Twoi poddani.
+\n \n - Podczas gry mają miejsce sytuacje, które trzeba rozwiązać za pomocą jednej z czterech przedstawionych opcji.
+\n \n- Co rundę otrzymujesz dochód o wartości 100zk.
+\n \n- Każda z opcji obarczona jest pewnym kosztem.
+\n \n- Tylko jedna z opcji jest prawidłowa.
+\n \n- Możesz skorzystać z dodatkowych informacji wydając 50 zk na zwiad.
+\n \n- Możesz także skorzystać z pożyczki dodającej 50 zk do twoich zasobów, jednak musisz spłacić ją poświęcając na nią trochę swojego czasu.
+</string>
+    <string name="rules_text1">Dernholm to gra w której wcielasz się w władcę państwa. Niestety Twoje włości nawiedzają liczne nieszczęścia w postaci bestii, szpiegów, plag czy ataki armii innych królestw. Aby przetrwać ten trudny okres jako władca musisz podejmować trudne decyzje i mądrze zarządzać zasobami na które ciężko pracowali Twoi poddani.
+\n \n - Podczas gry mają miejsce sytuacje, które trzeba rozwiązać za pomocą jednej z czterech przedstawionych opcji.
+\n \n- Co rundę otrzymujesz dochód o wartości 100zk.
+\n \n- Każda z opcji obarczona jest pewnym kosztem.
+\n \n- Tylko jedna z opcji jest prawidłowa.
+\n \n- Możesz skorzystać z dodatkowych informacji wydając 50 zk na zwiad.
+\n \n- Możesz także skorzystać z pożyczki dodającej 50 zk do twoich zasobów, jednak musisz spłacić ją poświęcając na nią trochę swojego czasu.</string>
     <string name="Back">Powrót</string>
     <string name="gold">złoto:</string>
     <string name="credit">Pożyczka</string>
     <string name="Next">Dalej</string>
     <string name="scoutprice">Zwiad-50zk</string>
-
+    <string name="end">Udało Ci się pokonać wszelkie nieszczęścia czyhające na Dernholm i jego mieszkańców. Wypleniłeś wszelkie potwory ze swoich ziem, pokonałeś przeciwników politycznych, wsparłeś rodzimą wiarę i umocniłeś swoją pozycję. Za twoich czasów nastąpił rozkwit zamku, miasta jak i całej krainy.  Zapisałeś się w historii jako mądry, sprawiedliwy i waleczny władca, a twoja dynastia rządziła jeszcze setki lat po twojej śmierci.</string>
+    <string name="cong">Gratulacje</string>
+    <string name="endend">koniec</string>
+    <string name="sprawdzam">_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam_____sprawdzam</string>
+    
     <string name="the_plague_of_mosquitoes">Wasza Wysokość, jedna z okolicznych wiosek została zaatakowana, szczęśliwcy którzy w tym czasie nie znajdowali się w wiosce znaleźli schronienie w naszym zamku. Część z nich twierdzi, że sprawcą ataku był smok. Inni natomiast upierają się, że było to stado harpi. Mimo tych rozbieżności wszyscy byli zgodni co do jednego, wioskę spowił ogromny cień, a z oddali dało się słyszeć furkot. Jeden z chłopów twierdzi, że podczas ucieczki spostrzegł zasuszone ciało jednego z mieszkańców.  Co zrobisz ,aby zabezpieczyć swój zamek przed tym nieszczęściem?</string>
     <string name="net_window">Siatki na okna! - 40 zk</string>
     <string name="archer_wall">Łucznicy na mury! - 50 zk</string>
@@ -28,8 +45,8 @@
     <string name="hunting">Polowanie! - 50 zk</string>
     <string name="ballista_fire_nets">Przygotować balistę - użyć sieci i ogłosić alarm pożarowy! - 70 zk</string>
     <string name="ballista_fire_blackArrows">Przygotować balistę - użyć czarnych strzał i ogłosić alarm pożarowy! - 80 zk</string>
-    <string name="scout_dragon">Wasza wysokość, udaliśmy się na miejsce gdzieolejek ginęły owce. Na miejscu znaleźliśmy szczątki zwierząt. Myślę, że stoi za tym nieduża bestia, większa prawdopodobnie pożarłaby swoją ofiarę w całości. W związku z jej rozmiarem przypuszczam, że może być to stworzenie zwinne i szybkie.</string>
-    <string name="good_dragon">Następnego ranka zostałeś poinformowany, że zamek zaatakował smok. Strażnik, który postrzelił bestię relacjonował to wydarzenie następująco: stałem na warcie, w powietrzu dało się wyczuć zapach siarki. Spojrzałem w niebo i w oddali dostrzegłem skrzydlatą bestię. Bez namysłu dopadłem do balisty, jednak cel okazał się nadzwyczaj szybki, wiedziałem że zdążę oddać tylko jeden strzał, jednak z tyłu głowy wiedziałem że pole rażenia pocisku jest duże i nie muszę trafić stwora bezpośrednio. W tym momencie zwolniłem cięciwę. A smok runął na ziemię i padł martwy na wskutek upadku.</string>
+    <string name="scout_dragon">Wasza wysokość, udaliśmy się na miejsce gdzie ginęły owce. Na miejscu znaleźliśmy szczątki zwierząt. Myślę, że stoi za tym nieduża bestia, większa prawdopodobnie pożarłaby swoją ofiarę w całości. W związku z jej rozmiarem przypuszczam, że może być to stworzenie zwinne i szybkie.</string>
+    <string name="good_dragon">Następnego ranka zostałeś poinformowany, że zamek zaatakował smok. Strażnik, który postrzelił bestię relacjonował to wydarzenie następująco: stałem na warcie, w powietrzu dało się wyczuć zapach siarki. Spojrzałem w niebo i w oddali dostrzegłem skrzydlatą bestię. Bez namysłu dopadłem do balisty, jednak cel okazał się nadzwyczaj szybki, wiedziałem że zdążę oddać tylko jeden strzał, jednak z tyłu głowy wiedziałem że pole rażenia pocisku jest duże i nie muszę trafić stwora bezpośrednio. W tym momencie zwolniłem cięciwę. A smok runął na ziemię i padł martwy wskutek upadku.</string>
     <string name="you_lose3">Środki, które przedsięwziąłeś okazały się nieskuteczne. Zagrożenie, które zdziesiątkowało ludność twego królestwa nadal stanowi dlań niebezpieczeństwo.</string>
 
     <string name="Cold">Wasza wysokość, samozwańczy wróżbita twierdzi że nadchodząca zima będzie wyjątkowo surowa. Głód nam nie grozi, posiadamy wystarczające zapasy żywności. Czy powinniśmy zrobić coś jeszcze?</string>
@@ -38,7 +55,7 @@
     <string name="Cold_kill">Co to za głupoty?! Powiesić wróżbitę! - 20zk</string>
     <string name="scout_Cold">Panie mój, zapasy żywności wystarczą nawet na dwie zimy, jednak zapasy drewna nie są już tak okazałe.</string>
     <string name="Cold_new">Usczelnić zamek! - 30 zk</string>
-    <string name="good_Cold">Nakazałeś swoim ludziom uzupełnić zapasy drewna z okolicznych lasów. Z czasem nadeszła wyjątkowo sroga i długa zima, gdyby nie dodatkowe zapasy drewna zapewne większość mieszkańców dernholm’u zamarzłaby we własnych domach.</string>
+    <string name="good_Cold">Nakazałeś swoim ludziom uzupełnić zapasy drewna z okolicznych lasów. Z czasem nadeszła wyjątkowo sroga i długa zima, gdyby nie dodatkowe zapasy drewna zapewne większość mieszkańców Dernholm’u zamarzłaby we własnych domach.</string>
     <string name="you_lose4">Środki, które przedsięwziąłeś okazały się nieskuteczne. Zagrożenie, które zdziesiątkowało ludność twego królestwa nadal stanowi dlań niebezpieczeństwo.</string>
 
     <string name="ents">Królu mój, nadworny leśniczy twierdzi, że ostatnia wycinka lasu wprowadziła w gniew budzące się z zimowego letargu leśne istoty zwane entami. Stworzenia te w zemście planują atak na nasz zamek. Jak powinniśmy przygotować się do obrony?</string>
@@ -46,9 +63,64 @@
     <string name="ents_trebuchet">Przygotować trebusz! - 50 zk</string>
     <string name="ents_boillingOil">Wrzący olej! - 40 zk </string>
     <string name="ents_brazier">Koksowniki! - 60 zk </string>
-    <string name="scout_ents">Panie mój, specjalista od magicznych stworzeń uważa, że dla drzewa dla entów są przyjaciółmi, nie ma możliwości, aby zasadzenie nowych drzew mogłoby powstrzymać ich gniew.</string>
+    <string name="scout_ents">Panie mój, specjalista od magicznych stworzeń uważa, że drzewa dla entów są przyjaciółmi i nie ma możliwości, aby zasadzenie nowych drzew mogłoby powstrzymać ich gniew.</string>
     <string name="good_ents">Po kilku dniach enty ruszyły na zamek, rozpoczęło się oblężenie. Część z nich złapała za głazy by ciskać nimi w mury zamczyska. W odpowiedzi żołnierze obstawiający mury wykorzystując zainstalowane na murach koksowniki zarzucili leśne stwory gradem ognistych strzał, które w mgnieniu oka przemieniły istoty w biegająca w panice płonące pochodnie. Atak został odparty.</string>
     <string name="you_lose5">Środki, które przedsięwziąłeś okazały się nieskuteczne. Zagrożenie, które zdziesiątkowało ludność twego królestwa nadal stanowi dlań niebezpieczeństwo.</string>
+    <string name="you_lose5a">Twoi nadworni ogrodnicy wyruszyli ze świeżymi sadzonkami w stronę starego lasu. Po tym jak rozpoczęli zalesianie, las poruszył się, a po chwili dało się słyszeć ich krzyki.</string>
+
+    <string name="spies">Mój panie, na naszych ziemiach pojawili się szpiedzy, którzy podburzają miejscową ludność przeciwko Tobie. Ponadto pojawiło się podejrzenie wycieku informacji o umocnieniach naszego zamku. Niestety aktualnie nie znamy tożsamości podżegaczy, którzy są za to odpowiedzialni.</string>
+    <string name="spies_execution">Przeprowadzić publiczną egzekucję głównych podejrzanych! – 30 zk</string>
+    <string name="spies_martial_law">Wprowadzić stan wojenny! – 100 zk</string>
+    <string name="spies_work_out">Rozpracować siatkę szpiegowską! – 50 zk</string>
+    <string name="spies_capture">Spacyfikować wszystkich buntowników! – 70 zk</string>
+    <string name="scout_spies">Panie mój, Twoi doradcy zalecają ostrożność, skrzywdzenie niewłaściwych ludzi może dać wichrzycielom argumenty, które pozwolą im zaognić konflikt.</string>
+    <string name="good_spies">Twoi szpiedzy wmieszali się w buntowników i dowiedzieli się kto w ich strukturach pociąga za sznurki. Wysłałeś wojsko, które w zorganizowanej akcji pochwyciła podżegaczy a następnie zostali oni publicznie straceni. Po tym wydarzeniu, niepokoje stopniowo ucichły.</string>
+    <string name="you_lose6">Środki, które przedsięwziąłeś okazały się nieskuteczne. Zagrożenie, które zdziesiątkowało ludność twego królestwa nadal stanowi dlań niebezpieczeństwo.</string>
+
+    <string name="other_nation">Mój panie, otrzymaliśmy wieść z sąsiedniego królestwa. Otóż tamtejszy król Osborn wypowiada Nam wojnę. To on wysłał szpiegów do naszego miasta, aby podburzać tłumy. Zwiadowcy donoszą, że wyprowadził on swoją armię i kieruje ją w stronę naszego zamku. Dotrze tu w przeciągu tygodnia.</string>
+    <string name="other_nation_wall">Przebudować mury! – 120 zk</string>
+    <string name="other_nation_mercenary">Wynająć okolicznych najemników! – 80 zk</string>
+    <string name="other_nation_food">Zgromadzić zapasy żywności! – 50 zk</string>
+    <string name="other_nation_civil">Powołać cywili do wojska! – 50 zk</string>
+    <string name="scout_other_nation">Dowódca obrony zwrócił uwagę, że wskutek działań szpiegów w ostatnim czasie morale mieszkańców są niskie i trzeba brać to pod uwagę w trakcie podejmowani działań obronnych.</string>
+    <string name="good_other_nation">Wysłałeś posłańca, do kompani najemników zwanej trzecimi synami. Po licznych negocjacjach zdecydowali się oni wesprzeć obronę zamku w zamian za pokaźną ilość złota. W ciągu trzech dni pojawili się na zamku. A przywódca najemników niejaki Detris wezwany do Sali tronowej złożył Ci hołd. \n - Wasza wysokość nasz oręż jest do twoich usług.</string>
+    <string name="you_lose7">Środki, które przedsięwziąłeś okazały się nieskuteczne. Zagrożenie, które zdziesiątkowało ludność twego królestwa nadal stanowi dlań niebezpieczeństwo.</string>
+
+    <string name="other_nation2">Według ostatnich wieści wojska Osborna jutro pojawią się na przedpolu zamku. Jaką taktykę powinniśmy przyjąć by pokonać wroga?</string>
+    <string name="other_nation2_wall">Obstawić mury, nie dopuścić wroga do szturmu. – 40 zk</string>
+    <string name="other_nation2_mercenery">Rozstawić zwiadowców, wysłać oddział najemników do pobliskiego lasu, zaatakujemy z dwóch stron. – 80 zk</string>
+    <string name="other_nation2_knights">Rozstawić zwiadowców wysłać oddział wiernych rycerzy do pobliskiego lasu, zaatakujemy z dwóch stron. - 80 zk</string>
+    <string name="other_nation2_attack">Przygotować się do ataku, uderzymy gdy zaczną rozbijać obóz. – 100 zk</string>
+    <string name="scout_other_nation2">Twoi zaufani wojskowi doradcy twierdzą, że najemnicy których wynająłeś są niesubordynowani i nie można do końca im ufać.</string>
+    <string name="good_other_nation2">Następnego dnia na horyzoncie pojawiła się armia z Stonebridge, zanim zdążyła rozstawić się pod murami zamku, wydałeś rozkaz do ataku. Dzięki doskonałej komunikacji zapewnionej przez rozstawionych wcześniej zwiadowców atak nastąpił jednocześnie z obu stron. Zaskoczony tym nagłym atakiem Osborn, nie był w stanie zorganizować defensywy na czas. Wrogie wojska wpadły w popłoch i rozpoczęła się masakra. Jednak najbardziej oddani wojowie z Stonebridge zebrali się wokół swojego władcy skutecznie chroniąc go przed atakiem zbrojnych. Twoi poddani ginęli bezskutecznie próbując przebić się przez formację nieprzyjaciela. Wezbrał w Tobie gniew, zebrałeś więc kwiat swego rycerstwa i ruszyłeś na wroga w rozstrzygającej szarży. Dopadłeś do Osborna raniąc go dotkliwie, mimo to udało mu się zbiec dzięki poświęceniu jego rycerzy. Bitwa skończona. Wielkie zwycięstwo!</string>
+    <string name="you_lose8">Środki, które przedsięwziąłeś okazały się nieskuteczne. Zagrożenie, które zdziesiątkowało ludność twego królestwa nadal stanowi dlań niebezpieczeństwo.</string>
+
+    <string name="epidemic">Panie mój, w ostatnich kilku dniach w mieście rozprzestrzeniła się nieznana dotąd śmiertelna choroba zakaźna. Grozi nam wybuch epidemii. Źródłem choroby najprawdopodobniej jest woda pitna. Mieszkańcy obawiają się o swoje życie, część z nich zamierza opuścić miasto. Ostatnie wydarzenia uszczupliły nasze siły. Na czym powinniśmy skoncentrować siły aby skutecznie powstrzymać zarazę?</string>
+    <string name="epidemic_quarantine">Odseparować zarażonych! – 50 zk</string>
+    <string name="epidemic_water">Zbadajcie źródło wody pitnej! – 30 zk</string>
+    <string name="epidemic_city">Zamknąć miasto! – 100 zk</string>
+    <string name="epidemic_curfew">Wprowadzić zakaz spotykania się w miejscach publicznych! – 70 zk</string>
+    <string name="scout_epidemic">Nadworny medyk udał się by zbadać zakażonych. Po wywiadzie z pacjentami wywnioskował, że choroba ta ma niski współczynnik zakaźności.</string>
+    <string name="good_epidemic">Zwiadowcy ruszyli w wzdłuż rzeki, aby znaleźć źródło odpowiadające za powstanie choroby. Kilka kilometrów za miastem znaleźli leżące w rzece rozkładające się ciało krowy. Po paru godzinach udało usunąć się truchło, które zatruwało wodę w rzece.</string>
+    <string name="you_lose9">Środki, które przedsięwziąłeś okazały się nieskuteczne. Zagrożenie, które zdziesiątkowało ludność twego królestwa nadal stanowi dlań niebezpieczeństwo.</string>
+
+    <string name="LOTR">Wasza wysokość, zaprzyjaźniony mędrzec twierdzi, że amulet który znalazłeś podczas jednej ze swoich podróży, a następnie przekazałeś swojemu siostrzeńcowi został stworzony przez złowrogiego czarnoksiężnika. Ów czarnoksiężnik stracił amulet setki lat temu,  a wraz z nim swoją cielesną powłokę. Niestety w ostatnim czasie, zaczął powracać do sił i pragnie odzyskać utracony skarb. Jeżeli wpadnie czarnoksiężnikowi w ręce wróci on do pełni swej mocy. Amulet można zniszczyć tylko w miejscu w którym został wykuty czyli na ziemiach czarnoksiężnika. Co powinniśmy zrobić w tej sytuacji?</string>
+    <string name="LOTR_give">Oddajcie czarnoksiężnikowi jego własność. – 20 zk</string>
+    <string name="LOTR_hide">Ukryjcie amulet na drugim końcu świata. – 60 zk</string>
+    <string name="LOTR_army">Wysłać armię na ziemię czarnoksiężnika by zniszczyć amulet. – 100 zk</string>
+    <string name="LOTR_fellowship">Wysłać grupę śmiałków którzy wyruszą na ziemię czarnoksiężnika i zniszczą amulet. – 40 zk</string>
+    <string name="scout_LOTR">Zwołałeś radę, na której wspólnie z najmądrzejszymi ludźmi na zamku ustaliliście, że jeżeli amulet trafi w ręce czarnoksiężnika będzie on stanowił dla naszego państwa poważne zagrożenie.</string>
+    <string name="good_LOTR">Po przeanalizowaniu sytuacji, ogłosiłeś na zamku nabór na niebezpieczną wyprawę, zgłosiło się wielu ochotników między innymi mędrzec i twój siostrzeniec. Nazajutrz w pełni wyposażeni do drogi ruszyli w swą podróż. Kilka miesięcy później otrzymałeś wieść, że misja zakończyła się sukcesem.</string>
+    <string name="you_lose10">Środki, które przedsięwziąłeś okazały się nieskuteczne. Zagrożenie, które zdziesiątkowało ludność twego królestwa nadal stanowi dlań niebezpieczeństwo.</string>
+
+    <string name="prophet">Wasza wysokość, w naszym mieście kilka miesięcy temu pojawili się kapłani Boga Ognia. Jeden z nich w ostatnim czasie zyskał wśród pospólstwa miano proroka. Bardzo efektywnie nawraca on mieszczan na swoją wiarę. Nasz kraj od lat szczycił się tolerancją religijną. Jednak doszły nas słuchy, że kapłani podburzają swoich wyznawców przeciwko koronie. Jakie działania powinniśmy podjąć, aby nie dopuścić do przewrotu religijnego?</string>
+    <string name="prophet_execution">Pojmać, osądzić i skazać proroka za zdradę. – 30 zk</string>
+    <string name="prophet_nothing">Nie musimy nic robić, to chwilowy trend, pospólstwu się znudzi i wrócą do dawnych wierzeń. – 20 zk</string>
+    <string name="prophet_faith">Wesprzeć rodzime wierzenia. – 60 zk</string>
+    <string name="prophet_persecution">Rozpocząć prześladowania wyznawców Boga Ognia. – 40 zk</string>
+    <string name="scout_prophet">Panie mój, zbadaliśmy opinię mieszkańców. Większość z nich jest niezdecydowana i nie wie co sądzić o nowej religii ich wyznawcach oraz poglądach, które głoszą.</string>
+    <string name="good_prophet">Wsparłeś finansowo oraz zapewniłeś bezpieczeństwo militarne starej religii. Wraz z dodatkowym przypływem gotówki wznowiono działanie przybytków dla ubogich prowadzonych przez kapłanów starej wiary, a wszelkie ceremonie religijne upiększono co spowodowało że stały się one wznioślejsze i na nowo pobudziły wiarę w ludziach. Parę dni później prorok i jego świta zniknęli bez śladu.</string>
+    <string name="you_lose11">Środki, które przedsięwziąłeś okazały się nieskuteczne. Zagrożenie, które zdziesiątkowało ludność twego królestwa nadal stanowi dlań niebezpieczeństwo.</string>
 </resources>
 
 

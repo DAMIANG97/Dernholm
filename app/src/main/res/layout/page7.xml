@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -11,19 +10,19 @@
 
     <ScrollView
         android:layout_marginBottom="20dp"
-        android:id="@+id/scrollView5"
+        android:id="@+id/scrollView7"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="@color/o"
-        app:layout_constraintBottom_toTopOf="@id/banner5"
+        app:layout_constraintBottom_toTopOf="@id/banner7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/costraint5"
+        app:layout_constraintTop_toBottomOf="@id/costraint7"
         app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
-            android:id="@+id/linearlayout5"
+            android:id="@+id/linearlayout7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -32,34 +31,34 @@
 
             <TextView
                 android:textColor="@color/black"
-                android:id="@+id/story5"
+                android:id="@+id/story7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:fontFamily="@font/berkshire_swash"
-                android:text="@string/ents"
+                android:text="@string/other_nation"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="@id/scrollView5"
+                app:layout_constraintBottom_toBottomOf="@id/scrollView7"
                 />
 
             <RadioGroup
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                android:id="@+id/radiogroup5"
+                android:id="@+id/radiogroup7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/shape_group">
 
                 <RadioButton
 
-                    android:id="@+id/radioButton5_1"
+                    android:id="@+id/radioButton7_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/ents_newTries"
+                    android:text="@string/other_nation_wall"
                     app:buttonTint="#102ED5"
                     android:fontFamily="@font/berkshire_swash"
                     android:textSize="20sp"
@@ -67,21 +66,10 @@
                     />
 
                 <RadioButton
-                    android:id="@+id/radioButton5_2"
+                    android:id="@+id/radioButton7_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/ents_trebuchet"
-                    app:buttonTint="#102ED5"
-                    android:fontFamily="@font/berkshire_swash"
-                    android:textSize="20sp"
-                    android:background="@drawable/shape_radiobuttonss"
-                    />
-
-                <RadioButton
-                    android:id="@+id/radioButton5_3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/ents_boillingOil"
+                    android:text="@string/other_nation_mercenary"
                     app:buttonTint="#102ED5"
                     android:fontFamily="@font/berkshire_swash"
                     android:textSize="20sp"
@@ -89,10 +77,21 @@
                     />
 
                 <RadioButton
-                    android:id="@+id/radioButton5_4"
+                    android:id="@+id/radioButton7_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/ents_brazier"
+                    android:text="@string/other_nation_food"
+                    app:buttonTint="#102ED5"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:textSize="20sp"
+                    android:background="@drawable/shape_radiobuttonss"
+                    />
+
+                <RadioButton
+                    android:id="@+id/radioButton7_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/other_nation_civil"
                     app:buttonTint="#102ED5"
                     android:fontFamily="@font/berkshire_swash"
                     android:textSize="20sp"
@@ -100,7 +99,7 @@
                 <RadioButton
                     android:checked="true"
                     android:visibility="gone"
-                    android:id="@+id/radioButton5_5"
+                    android:id="@+id/radioButton7_5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/up_wall"
@@ -116,9 +115,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/o"
-                app:layout_constraintTop_toBottomOf="@id/radiogroup5">
+                app:layout_constraintTop_toBottomOf="@id/radiogroup7">
                 <Button
-                    android:id="@+id/fake_5"
+                    android:id="@+id/fake_7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/next"
@@ -135,7 +134,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     />
                 <Button
-                    android:id="@+id/next5_1"
+                    android:id="@+id/next7_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/next"
@@ -152,7 +151,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"/>
 
                 <Button
-                    android:id="@+id/next5_2"
+                    android:id="@+id/next7_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/next"
@@ -169,7 +168,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"/>
 
                 <Button
-                    android:id="@+id/next5_3"
+                    android:id="@+id/next7_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/next"
@@ -186,7 +185,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"/>
 
                 <Button
-                    android:id="@+id/next5_4"
+                    android:id="@+id/next7_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/next"
@@ -211,16 +210,16 @@
     </ScrollView>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/costraint5"
+        android:id="@+id/costraint7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button_heading5">
+        app:layout_constraintTop_toBottomOf="@id/button_heading7">
 
 
         <Button
-            android:id="@+id/credit5"
+            android:id="@+id/credit7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -232,10 +231,10 @@
             android:textSize="15sp"
             app:backgroundTint="@android:color/transparent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/linear5_4" />
+            app:layout_constraintTop_toBottomOf="@id/linear7_4" />
 
         <LinearLayout
-            android:id="@+id/linear5_4"
+            android:id="@+id/linear7_4"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_marginEnd="10dp"
@@ -245,16 +244,16 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
-                android:id="@+id/gold5"
+                android:id="@+id/gold7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
-                app:layout_constraintEnd_toStartOf="@id/amout_gold5"
+                app:layout_constraintEnd_toStartOf="@id/amout_gold7"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/skrzynia_zlota" />
 
             <TextView
-                android:id="@+id/amout_gold5"
+                android:id="@+id/amout_gold7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:gravity="center"
@@ -266,7 +265,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/linear5_3"
+            android:id="@+id/linear7_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -280,7 +279,7 @@
 
             <ImageButton
                 android:visibility="gone"
-                android:id="@+id/scrollid5"
+                android:id="@+id/scrollid7"
                 android:layout_marginTop="17dp"
                 android:layout_width="100dp"
                 android:layout_height="33dp"
@@ -288,7 +287,7 @@
                 android:background="@drawable/scroll"/>
 
             <ImageView
-                android:id="@+id/scout5"
+                android:id="@+id/scout7"
                 android:layout_width="72dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -296,7 +295,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
             <Button
-                android:id="@+id/button_scout5"
+                android:id="@+id/button_scout7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/scoutprice"
@@ -309,12 +308,12 @@
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/top_separate5"
+            android:id="@+id/top_separate7"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_gravity="center"
             app:srcCompat="@drawable/separator"
-            app:layout_constraintTop_toBottomOf="@id/credit5"
+            app:layout_constraintTop_toBottomOf="@id/credit7"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -327,62 +326,44 @@
         <ScrollView
             android:layout_marginBottom="20dp"
             android:visibility="invisible"
-            android:id="@+id/przegrales5"
+            android:id="@+id/przegrales7"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:background="@color/o"
-            app:layout_constraintBottom_toTopOf="@id/banner5"
+            app:layout_constraintBottom_toTopOf="@id/banner7"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/button_heading5"
+            app:layout_constraintTop_toBottomOf="@id/button_heading7"
             app:layout_constraintVertical_bias="0.0">
 
             <LinearLayout
-                android:id="@+id/linearlayoutend5"
+                android:id="@+id/linearlayoutend7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <TextView
-                    android:visibility="gone"
                     android:padding="15dp"
                     android:textColor="@color/black"
-                    android:id="@+id/you_lose5"
+                    android:id="@+id/you_lose7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:fontFamily="@font/berkshire_swash"
-                    android:text="@string/you_lose5"
+                    android:text="@string/you_lose7"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toBottomOf="@id/powrot5"
-                    />
-                <TextView
-                    android:visibility="gone"
-                    android:padding="15dp"
-                    android:textColor="@color/black"
-                    android:id="@+id/you_lose5a"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:fontFamily="@font/berkshire_swash"
-                    android:text="@string/you_lose5a"
-                    android:textSize="20sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toBottomOf="@id/powrot5"
+                    app:layout_constraintBottom_toBottomOf="@id/powrot7"
                     />
 
 
 
                 <Button
-                    android:id="@+id/powrot5"
+                    android:id="@+id/powrot7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/next"
@@ -413,19 +394,19 @@
         <ScrollView
             android:layout_marginBottom="20dp"
             android:visibility="invisible"
-            android:id="@+id/wygrales5"
+            android:id="@+id/wygrales7"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:background="@color/o"
-            app:layout_constraintBottom_toTopOf="@id/banner5"
+            app:layout_constraintBottom_toTopOf="@id/banner7"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/button_heading5"
+            app:layout_constraintTop_toBottomOf="@id/button_heading7"
             app:layout_constraintVertical_bias="0.0">
 
             <LinearLayout
-                android:id="@+id/linearlayoutwin5"
+                android:id="@+id/linearlayoutwin7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -433,24 +414,24 @@
                 <TextView
                     android:padding="15dp"
                     android:textColor="@color/black"
-                    android:id="@+id/you_win5"
+                    android:id="@+id/you_win7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:fontFamily="@font/berkshire_swash"
-                    android:text="@string/good_ents"
+                    android:text="@string/good_other_nation"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toBottomOf="@id/powrot5"
+                    app:layout_constraintBottom_toBottomOf="@id/powrot7"
                     />
 
 
 
                 <Button
-                    android:id="@+id/next5"
+                    android:id="@+id/next7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/next"
@@ -477,20 +458,20 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:visibility="invisible"
-        android:id="@+id/infoscroll5"
+        android:id="@+id/infoscroll7"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/o"
         android:layout_marginTop="40dp"
-        app:layout_constraintBottom_toTopOf="@id/banner5"
-        app:layout_constraintTop_toBottomOf="@id/button_heading5">
+        app:layout_constraintBottom_toTopOf="@id/banner7"
+        app:layout_constraintTop_toBottomOf="@id/button_heading7">
 
 
 
 
         <ScrollView
             android:layout_marginBottom="20dp"
-            android:id="@+id/scrollViewscroll5"
+            android:id="@+id/scrollViewscroll7"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:background="@color/o"
@@ -502,7 +483,7 @@
             app:layout_constraintVertical_bias="0.0">
 
             <LinearLayout
-                android:id="@+id/linearlayoutscroll5"
+                android:id="@+id/linearlayoutscroll7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -511,22 +492,22 @@
                 <TextView
                     android:padding="15dp"
                     android:textColor="@color/black"
-                    android:id="@+id/scrolltext5"
+                    android:id="@+id/scrolltext7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:fontFamily="@font/berkshire_swash"
-                    android:text="@string/scout_ents"
+                    android:text="@string/scout_other_nation"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toBottomOf="@id/backscroll5"
+                    app:layout_constraintBottom_toBottomOf="@id/backscroll7"
                     />
 
                 <Button
-                    android:id="@+id/backscroll5"
+                    android:id="@+id/backscroll7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/next"
@@ -558,7 +539,7 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
     <Button
-        android:id="@+id/button_heading5"
+        android:id="@+id/button_heading7"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="@color/heading"
@@ -571,7 +552,7 @@
     <com.google.android.gms.ads.AdView
         app:backgroundTint="@color/heading"
         android:background="@color/heading"
-        android:id="@+id/banner5"
+        android:id="@+id/banner7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:adSize="BANNER"

@@ -75,7 +75,13 @@ public class MainActivity extends AppCompatActivity
                 if(numer==1){openpage2();}                                          //
                 if(numer==2){openpage3();}                                          //
                 if(numer==3){openpage4();}
-
+                if(numer==4){openpage5();}
+                if(numer==5){openpage6();}
+                if(numer==6){openpage7();}
+                if(numer==7){openpage8();}
+                if(numer==8){openpage9();}
+                if(numer==9){openpage10();}
+                if(numer==10){openpage11();}
 
 
                 finish();                                                           // zamknięcie aktywności
@@ -130,6 +136,41 @@ public void onDestroy(){
     public void openpage4 ()
     {
         Intent intent2 = new Intent(this, page4.class);
+        startActivity(intent2);
+    }
+    public void openpage5 ()
+    {
+        Intent intent2 = new Intent(this, page5.class);
+        startActivity(intent2);
+    }
+    public void openpage6 ()
+    {
+        Intent intent2 = new Intent(this, page6.class);
+        startActivity(intent2);
+    }
+    public void openpage7 ()
+    {
+        Intent intent2 = new Intent(this, page7.class);
+        startActivity(intent2);
+    }
+    public void openpage8 ()
+    {
+        Intent intent2 = new Intent(this, page8.class);
+        startActivity(intent2);
+    }
+    public void openpage9 ()
+    {
+        Intent intent2 = new Intent(this, page9.class);
+        startActivity(intent2);
+    }
+    public void openpage10 ()
+    {
+        Intent intent2 = new Intent(this, page10.class);
+        startActivity(intent2);
+    }
+    public void openpage11 ()
+    {
+        Intent intent2 = new Intent(this, page11.class);
         startActivity(intent2);
     }
 

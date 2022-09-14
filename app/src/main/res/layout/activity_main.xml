@@ -49,12 +49,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/start_game"
-        android:layout_marginBottom="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/castle0"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
         app:backgroundTint="@color/heading"
         android:background="@color/heading"/>
 
@@ -66,21 +65,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/menu"
-        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
         app:backgroundTint="@color/heading"
         android:background="@color/heading"/>
 
-    <Button
-        android:id="@+id/more_games"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/more_games"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rules"
-        android:layout_margin="10dp"
-        app:backgroundTint="@color/heading"
-        android:background="@color/heading"/>
+
 
         <Button
             android:id="@+id/button_foot1"

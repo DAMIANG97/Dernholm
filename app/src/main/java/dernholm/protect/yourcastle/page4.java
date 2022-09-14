@@ -364,10 +364,11 @@ OnUserEarnedRewardListener */ page4.this);
 
         correct2_button1.setOnClickListener(v -> {                                          // kliknięcie przycisku ""correct2_button1" powoduje:
             findViewById(R.id.wygrales4).setVisibility(View.VISIBLE);
-            mp.setVolume((float)0.2,(float)0.2);
+            mp.setVolume((float)0.12,(float)0.12);
         });
 
-        correct2_button1.setOnClickListener(v -> {                                          // kliknięcie przycisku ""correct2_button1" powoduje:
+        final Button wygrales_button = findViewById(R.id.next4);
+        wygrales_button.setOnClickListener(v -> {
             numer++;                                                                        // zwiększenie wartości zmiennej "numer" o jeden, odpowiadającej za zapis
             ilosczlotaa = ilosczlotaa + 20;                                                 // zwiększenie wartości zmiennej "ilosczlotaa" o 60, zwiększenie zasobów gracza o 60
             SharedPreferences saveLayout = getSharedPreferences(SAVE, MODE_PRIVATE);        // wprowadzenie interfejsu loadLayout pozwalającego przechowywać dane
@@ -377,7 +378,12 @@ OnUserEarnedRewardListener */ page4.this);
             ilosczlota2.setText(String.valueOf(ilosczlotaa));                               // aktualizacja wartości wyświetlanej przez tekst "ilosczlota2"
             editor.putInt("ilosczlotaaa", ilosczlotaa);                                     // zmiana wartości przechowywanej w "ilosczlotaaa" na aktualną wartość "ilosczlotaa"
             editor.apply();                                                                 // zatwierdzenie zmiany w loadLayout
-            openpage5();                                                                    // wywołanie metody "openpage()"
+            openpage5();                                                                     // wywołanie metody "openpage()"
+            finish();
+
+
+
+
         });
 
 
@@ -390,6 +396,7 @@ OnUserEarnedRewardListener */ page4.this);
             editor.putInt("ilosczlotaaa", ilosczlotaa);                                     // zmiana wartości przechowywanej w "ilosczlotaaa" na aktualną wartość "ilosczlotaa"
             editor.apply();                                                                 // zatwierdzenie zmiany w loadLayout
             findViewById(R.id.przegrales4).setVisibility(View.VISIBLE);                      // layout o id "przegrales" staje się widoczny
+            findViewById(R.id.you_lose4).setVisibility(View.VISIBLE);
             findViewById(R.id.radioButton4_1).setVisibility(View.INVISIBLE);                  // przycisk wyboru pozwalający na kliknięcie "incorrect2_button2" znika i nie może być wybrany.
             incorrect2_button2.setEnabled(false);                                           //
             incorrect2_button2.setVisibility(View.INVISIBLE);                               //
@@ -404,6 +411,7 @@ OnUserEarnedRewardListener */ page4.this);
             editor.putInt("ilosczlotaaa", ilosczlotaa);                                     // zmiana wartości przechowywanej w "ilosczlotaaa" na aktualną wartość "ilosczlotaa"
             editor.apply();                                                                 // zatwierdzenie zmiany w loadLayout
             findViewById(R.id.przegrales4).setVisibility(View.VISIBLE);                      // layout o id "przegrales" staje się widoczny
+            findViewById(R.id.you_lose4).setVisibility(View.VISIBLE);
             findViewById(R.id.radioButton4_3).setVisibility(View.INVISIBLE);                  // przycisk wyboru pozwalający na kliknięcie "incorrect2_button3" znika i nie może być wybrany.
             incorrect2_button3.setEnabled(false);                                           //
             incorrect2_button3.setVisibility(View.INVISIBLE);                               //
@@ -417,6 +425,7 @@ OnUserEarnedRewardListener */ page4.this);
             editor.putInt("ilosczlotaaa", ilosczlotaa);                                     // zmiana wartości przechowywanej w "ilosczlotaaa" na aktualną wartość "ilosczlotaa"
             editor.apply();                                                                 // zatwierdzenie zmiany w loadLayout
             findViewById(R.id.przegrales4).setVisibility(View.VISIBLE);                      // layout o id "przegrales" staje się widoczny
+            findViewById(R.id.you_lose4).setVisibility(View.VISIBLE);
             findViewById(R.id.radioButton4_4).setVisibility(View.INVISIBLE);                  // przycisk wyboru pozwalający na kliknięcie "incorrect2_button4" znika i nie może być wybrany.
             incorrect2_button4.setEnabled(false);                                           //
             incorrect2_button4.setVisibility(View.INVISIBLE);                               //
@@ -493,7 +502,7 @@ OnUserEarnedRewardListener */ page4.this);
 
                 mp.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
                 mp.prepare();
-                mp.setVolume((float) 0.5,(float)0.5);
+                mp.setVolume((float) 0.3,(float)0.3);
                 mp.start();
                 mp.setLooping(true);
 

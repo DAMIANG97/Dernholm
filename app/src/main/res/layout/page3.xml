@@ -29,6 +29,7 @@
             android:orientation="vertical"
             android:padding="5dp">
 
+
             <TextView
                 android:textColor="@color/black"
                 android:id="@+id/story3"
@@ -306,34 +307,36 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
         </LinearLayout>
-
+        <ImageView
+            android:id="@+id/top_separate3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/separator"
+            app:layout_constraintTop_toBottomOf="@id/credit3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:visibility="invisible"
-        android:id="@+id/przegrales3"
-        android:layout_marginTop="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/o"
-        app:layout_constraintBottom_toTopOf="@id/banner3"
-        app:layout_constraintTop_toBottomOf="@id/button_heading3">
+
 
 
 
 
         <ScrollView
+
+            android:visibility="invisible"
             android:layout_marginBottom="20dp"
-            android:id="@+id/scrollViewend3"
+            android:id="@+id/przegrales3"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:background="@color/o"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/banner3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_heading3"
             app:layout_constraintVertical_bias="0.0">
 
             <LinearLayout
@@ -392,29 +395,22 @@
 
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:visibility="invisible"
-        android:id="@+id/wygrales3"
-        android:layout_marginTop="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/o"
-        app:layout_constraintBottom_toTopOf="@id/banner3"
-        app:layout_constraintTop_toBottomOf="@id/button_heading3">
+
+
 
         <ScrollView
+            android:visibility="invisible"
             android:layout_marginBottom="20dp"
-            android:id="@+id/scrollViewwin3"
+            android:id="@+id/wygrales3"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:background="@color/o"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/banner3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_heading3"
             app:layout_constraintVertical_bias="0.0">
 
             <LinearLayout
@@ -465,7 +461,7 @@
             </LinearLayout>
         </ScrollView>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:visibility="invisible"
@@ -567,7 +563,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-1287137257492728/7907849682"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

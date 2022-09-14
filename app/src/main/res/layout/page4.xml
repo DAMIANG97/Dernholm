@@ -29,6 +29,7 @@
             android:orientation="vertical"
             android:padding="5dp">
 
+
             <TextView
                 android:textColor="@color/black"
                 android:id="@+id/story4"
@@ -306,34 +307,35 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
         </LinearLayout>
-
+        <ImageView
+            android:id="@+id/top_separate4"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/separator"
+            app:layout_constraintTop_toBottomOf="@id/credit4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:visibility="invisible"
-        android:id="@+id/przegrales4"
-        android:layout_marginTop="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/o"
-        app:layout_constraintBottom_toTopOf="@id/banner4"
-        app:layout_constraintTop_toBottomOf="@id/button_heading4">
+
 
 
 
 
         <ScrollView
             android:layout_marginBottom="20dp"
-            android:id="@+id/scrollViewend4"
+            android:visibility="invisible"
+            android:id="@+id/przegrales4"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:background="@color/o"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/banner4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_heading4"
             app:layout_constraintVertical_bias="0.0">
 
             <LinearLayout
@@ -343,9 +345,27 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:visibility="gone"
                     android:padding="15dp"
                     android:textColor="@color/black"
                     android:id="@+id/you_lose4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:text="@string/you_lose4"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="@id/powrot"
+                    />
+                <TextView
+                    android:visibility="gone"
+                    android:padding="15dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/you_lose4a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -392,29 +412,22 @@
 
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:visibility="invisible"
-        android:id="@+id/wygrales4"
-        android:layout_marginTop="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/o"
-        app:layout_constraintBottom_toTopOf="@id/banner4"
-        app:layout_constraintTop_toBottomOf="@id/button_heading4">
+
+
 
         <ScrollView
             android:layout_marginBottom="20dp"
-            android:id="@+id/scrollViewwin4"
+            android:visibility="invisible"
+            android:id="@+id/wygrales4"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:background="@color/o"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/banner4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_heading4"
             app:layout_constraintVertical_bias="0.0">
 
             <LinearLayout
@@ -432,7 +445,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:fontFamily="@font/berkshire_swash"
-                    android:text="@string/good_dragon"
+                    android:text="@string/good_Cold"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -465,7 +478,7 @@
             </LinearLayout>
         </ScrollView>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:visibility="invisible"
@@ -567,7 +580,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-1287137257492728/7907849682"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
